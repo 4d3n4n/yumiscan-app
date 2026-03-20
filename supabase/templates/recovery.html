@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Reprenez la main sur votre compte YumiScan</title>
+  </head>
+  <body style="margin:0;padding:0;background:#fbf8f1;color:#171728;font-family:Manrope,Arial,sans-serif;">
+    <div style="background:#fbf8f1;padding:28px 16px 36px;">
+      <div style="max-width:640px;margin:0 auto;">
+        <div style="padding:0 8px 18px;">
+          <span style="display:inline-block;background:#ffffff;border:2.5px solid #1a1a2e;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;color:#6f26d9;">
+            YumiScan
+          </span>
+        </div>
+
+        <div style="background:#ffffff;border:2.5px solid #1a1a2e;border-radius:18px;box-shadow:6px 6px 0 #1a1a2e;padding:34px 30px;">
+          <div style="margin:0 0 18px;">
+            <span style="display:inline-block;background:#fff0da;color:#8a3a00;border:2px solid #1a1a2e;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;">
+              Access reset
+            </span>
+          </div>
+
+          <h1 style="margin:0 0 18px;font-family:'Space Grotesk',Manrope,Arial,sans-serif;font-size:34px;line-height:1.05;font-weight:900;color:#171728;">
+            Reprenez le controle
+            <span style="display:block;margin-top:8px;color:#6f26d9;">Get back in the flow</span>
+          </h1>
+
+          <div style="margin:0 0 20px;padding:18px;background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              Francais
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              Une demande de reinitialisation a ete recue pour votre compte YumiScan. Utilisez le lien ci-dessous pour choisir un nouveau mot de passe et reprendre la main en toute securite.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;padding:18px;background:#fff7ea;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#8a3a00;">
+              English
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              A password reset was requested for your YumiScan account. Use the link below to choose a new password and get back in securely.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;">
+            <a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#6f26d9;border:2.5px solid #1a1a2e;border-radius:999px;box-shadow:4px 4px 0 #1a1a2e;padding:14px 22px;font-size:16px;font-weight:800;line-height:1.2;color:#ffffff;text-decoration:none;">
+              Choisir mon nouveau code / Set my new password
+            </a>
+          </div>
+
+          <div style="background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;padding:16px 18px;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              Lien direct / Direct link
+            </p>
+            <p style="margin:0;font-size:13px;line-height:1.7;word-break:break-all;">
+              <a href="{{ .ConfirmationURL }}" style="color:#6f26d9;text-decoration:underline;">{{ .ConfirmationURL }}</a>
+            </p>
+          </div>
+        </div>
+
+        <div style="padding:18px 8px 0;">
+          <p style="margin:0;font-size:12px;line-height:1.7;color:#6b6878;">
+            Si vous n'avez pas demande cette action, ignorez simplement ce message. If you did not request this action, you can safely ignore this email.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

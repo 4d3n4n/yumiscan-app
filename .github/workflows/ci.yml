@@ -1,0 +1,86 @@
+# Pipeline CI/CD YumiScan — Typecheck + Build sur main et recette (déploiement par Vercel)
+# Déclenché : push/PR sur main et recette. Deploy front : main uniquement (Vercel). Deploy Edge Functions : push recette uniquement (un seul déploiement, pas de double recette+main).
+# Doc : docs/ci-cd/PROCEDURE-CI-YML.md
+
+name: CI
+
+on:
+  push:
+    branches: [main, recette]
+  pull_request:
+    branches: [main, recette]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Dead Code Check (Knip)
+        run: npm run lint:deadcode
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Test
+        run: npm run test
+
+      - name: Build
+        run: npm run build
+        env:
+          NUXT_PUBLIC_SUPABASE_URL: ${{ secrets.NUXT_PUBLIC_SUPABASE_URL }}
+          NUXT_PUBLIC_SUPABASE_KEY: ${{ secrets.NUXT_PUBLIC_SUPABASE_KEY }}
+          NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: ${{ secrets.NUXT_PUBLIC_STRIPE_PUBLISHABLE_KEY }}
+
+  # Déploiement des Edge Functions uniquement sur push vers recette (un seul env déployé par la CI ; prod = déploiement manuel si besoin).
+  deploy-edge-functions-recette:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/recette'
+    needs: [build]
+    runs-on: ubuntu-latest
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF_RECETTE }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check Edge Functions deploy secrets
+        run: |
+          if [ -z "$SUPABASE_PROJECT_REF" ]; then
+            echo "::error::SUPABASE_PROJECT_REF_RECETTE is not set. Add it in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+          if [ -z "$SUPABASE_ACCESS_TOKEN" ]; then
+            echo "::error::SUPABASE_ACCESS_TOKEN is not set. Add it in Settings → Secrets and variables → Actions."
+            exit 1
+          fi
+      - name: Setup Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: latest
+      - name: Deploy Edge Functions (recette)
+        run: supabase functions deploy --project-ref "$SUPABASE_PROJECT_REF"
+      # Stripe envoie le webhook sans JWT : sans --no-verify-jwt la gateway Supabase renvoie 401 et la fonction n'est jamais exécutée (logs vides, crédits pas en BDD).
+      - name: Deploy stripe-webhook sans vérification JWT (recette)
+        run: supabase functions deploy stripe-webhook --no-verify-jwt --project-ref "$SUPABASE_PROJECT_REF"
+      # Vérifie que les types Supabase committés sont à jour par rapport au schéma distant.
+      # Si le dev a modifié la BDD sans relancer `npm run gen:types`, ce step échoue.
+      - name: Verify Supabase types are up-to-date
+        run: |
+          supabase gen types typescript --project-id "$SUPABASE_PROJECT_REF" > types/supabase.ts
+          if ! git diff --ignore-all-space --exit-code types/supabase.ts; then
+            echo "::error::types/supabase.ts is out of date! Run 'npm run gen:types' locally and commit the result."
+            exit 1
+          fi

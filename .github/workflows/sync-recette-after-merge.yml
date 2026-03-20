@@ -1,0 +1,31 @@
+# Après chaque merge d’une PR vers main, met à jour recette avec main
+# pour que recette ne soit plus "X commits behind main".
+# Déclenché : merge d’une PR dont la branche cible est main.
+
+name: Sync recette with main
+
+on:
+  pull_request:
+    types: [closed]
+    branches: [main]
+
+jobs:
+  sync-recette:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # pour push sur recette
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Merge main into recette and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout recette
+          git merge origin/main -m "chore: sync recette with main"
+          git push origin recette

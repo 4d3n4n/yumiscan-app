@@ -1,0 +1,75 @@
+{
+  "$schema": "./node_modules/knip/schema.json",
+  "entry": [
+    "supabase/functions/**/*.ts",
+    "tests/**/*.ts"
+  ],
+  "project": [
+    "**/*.{ts,js,cjs,mjs,vue}"
+  ],
+  "ignoreFiles": [
+    "app/router.options.ts",
+    "components/**/*.vue",
+    "composables/**/*.ts",
+    "data/loading-hints.ts",
+    "utils/image-processor.ts"
+  ],
+  "nuxt": true,
+  "nitro": true,
+  "ignoreBinaries": [
+    "supabase"
+  ],
+  "ignoreDependencies": [
+    "vue-tsc",
+    "vue-i18n",
+    "vue-router",
+    "@supabase/functions-js",
+    "heic2any"
+  ],
+  "ignoreIssues": {
+    "error.vue": [
+      "unlisted"
+    ],
+    "sentry.server.config.ts": [
+      "unlisted"
+    ],
+    "supabase/functions/food-scan-analyze/ai/phase09.ts": [
+      "unlisted"
+    ],
+    "types/**/*.ts": [
+      "exports",
+      "types"
+    ],
+    "data/blog.ts": [
+      "types"
+    ],
+    "lib/stripe-plans.ts": [
+      "types"
+    ],
+    "utils/password.ts": [
+      "types"
+    ],
+    "utils/security-headers.ts": [
+      "types"
+    ],
+    "utils/company-config.ts": [
+      "exports",
+      "types"
+    ],
+    "utils/sentry-reporting.ts": [
+      "types"
+    ],
+    "utils/signup.ts": [
+      "types"
+    ],
+    "utils/supabase-auth.ts": [
+      "exports"
+    ],
+    "utils/types.ts": [
+      "types"
+    ],
+    "composables/useEdgeFunctions.ts": [
+      "exports"
+    ]
+  }
+}

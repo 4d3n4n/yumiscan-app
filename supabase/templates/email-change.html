@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Validez votre nouvelle adresse YumiScan</title>
+  </head>
+  <body style="margin:0;padding:0;background:#fbf8f1;color:#171728;font-family:Manrope,Arial,sans-serif;">
+    <div style="background:#fbf8f1;padding:28px 16px 36px;">
+      <div style="max-width:640px;margin:0 auto;">
+        <div style="padding:0 8px 18px;">
+          <span style="display:inline-block;background:#ffffff;border:2.5px solid #1a1a2e;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;color:#6f26d9;">
+            YumiScan
+          </span>
+        </div>
+
+        <div style="background:#ffffff;border:2.5px solid #1a1a2e;border-radius:18px;box-shadow:6px 6px 0 #1a1a2e;padding:34px 30px;">
+          <div style="margin:0 0 18px;">
+            <span style="display:inline-block;background:#e7fbf4;color:#0b5c3f;border:2px solid #1a1a2e;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;">
+              Account update
+            </span>
+          </div>
+
+          <h1 style="margin:0 0 18px;font-family:'Space Grotesk',Manrope,Arial,sans-serif;font-size:34px;line-height:1.05;font-weight:900;color:#171728;">
+            Donnez le feu vert
+            <span style="display:block;margin-top:8px;color:#6f26d9;">Greenlight your new address</span>
+          </h1>
+
+          <div style="margin:0 0 18px;padding:16px 18px;background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 4px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              New email / Nouvel email
+            </p>
+            <p style="margin:0;font-size:16px;font-weight:700;color:#171728;">{{ .NewEmail }}</p>
+          </div>
+
+          <div style="margin:0 0 20px;padding:18px;background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              Francais
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              Une demande de changement d'adresse email a ete faite pour votre compte. Confirmez ce changement uniquement si vous en etes bien a l'origine.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;padding:18px;background:#eefaf6;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#0b5c3f;">
+              English
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              An email change was requested for your account. Confirm this update only if you are the one who initiated it.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;">
+            <a href="{{ .RedirectTo }}?confirmation_url={{ .ConfirmationURL }}" style="display:inline-block;background:#6f26d9;border:2.5px solid #1a1a2e;border-radius:999px;box-shadow:4px 4px 0 #1a1a2e;padding:14px 22px;font-size:16px;font-weight:800;line-height:1.2;color:#ffffff;text-decoration:none;">
+              Valider cette adresse / Confirm this email
+            </a>
+          </div>
+
+          <p style="margin:0;font-size:13px;line-height:1.7;color:#6b6878;">
+            Si ce changement ne vient pas de vous, n'utilisez pas ce lien. If this change was not requested by you, do not use this link.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

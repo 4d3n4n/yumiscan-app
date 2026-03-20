@@ -1,0 +1,70 @@
+# YumiScan
+
+> Détectez vos allergènes alimentaires en un scan grâce à l'IA.
+
+## Description
+
+YumiScan est une application web progressive (PWA) qui permet de scanner les étiquettes alimentaires pour détecter automatiquement les allergènes grâce à l'intelligence artificielle. L'application est particulièrement optimisée pour les produits japonais et leurs étiquettes en kanji.
+
+## URL
+
+- Site : https://yumiscan.com
+- Application : https://yumiscan.com/
+- À propos : https://yumiscan.com/a-propos
+- CGV : https://yumiscan.com/cgv
+
+## Fonctionnalités principales
+
+- Scan des étiquettes alimentaires par photo ou import d'image
+- Détection automatique des allergènes par IA (OCR + classification)
+- Support des étiquettes japonaises (kanjis alimentaires)
+- Profil allergènes personnalisable (gluten, soja, œufs, crustacés, arachides, fruits à coque, sésame, lait, poisson, etc.)
+- Critères alimentaires personnalisés (halal, vegan, végétarien, etc.)
+- Historique de scans consultable
+- Application installable sur mobile (PWA)
+- Interface en français
+
+## Tarification
+
+- 3 scans gratuits à l'inscription
+- Crédits achetables sans abonnement
+- Les crédits n'expirent jamais
+
+## Cas d'usage
+
+- Personnes souffrant d'allergies alimentaires au Japon ou en France
+- Expatriés au Japon qui ne lisent pas les kanjis alimentaires
+- Touristes au Japon souhaitant vérifier les ingrédients
+- Personnes suivant un régime spécifique (halal, vegan, sans gluten)
+- Parents vérifiant les ingrédients pour leurs enfants allergiques
+
+## Stack technique
+
+- Frontend : Nuxt 3, Vue 3, Tailwind CSS
+- Backend : Supabase (Auth, Storage, Edge Functions)
+- IA : Google Gemini (OCR + classification multi-étapes)
+- Paiement : Stripe
+
+## FAQ
+
+### Comment fonctionne la détection d'allergènes par IA ?
+YumiScan utilise un pipeline OCR + intelligence artificielle multi-étapes : l'image est analysée, le texte est extrait et chaque ingrédient est classifié selon vos critères d'allergènes personnalisés.
+
+### Quels allergènes YumiScan peut-il détecter ?
+Tous les allergènes majeurs : gluten, soja, œufs, crustacés, arachides, fruits à coque, sésame, lait, poisson et bien d'autres. Vous pouvez aussi ajouter des critères personnalisés comme halal ou vegan.
+
+### Le scan fonctionne-t-il avec les étiquettes japonaises ?
+Oui, c'est la spécialité de YumiScan. L'IA est optimisée pour lire les kanjis alimentaires complexes et traduire automatiquement les listes d'ingrédients japonais en français.
+
+### Combien de scans gratuits sont inclus ?
+À la création du compte, 3 scans gratuits sont disponibles pour tester l'expérience complète sans engagement.
+
+### Les crédits de scan expirent-ils ?
+Non. Les crédits sont valables à vie, sans limite de temps.
+
+### YumiScan est-il disponible sur mobile ?
+Oui. YumiScan est une application web progressive (PWA) accessible depuis n'importe quel navigateur mobile. Elle peut être installée sur l'écran d'accueil comme une app native, sans passer par un store.
+
+## Contact
+
+- Site web : https://yumiscan.com

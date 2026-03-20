@@ -1,0 +1,38 @@
+{
+  "version": "5",
+  "remote": {
+    "https://esm.sh/@supabase/supabase-js@2.39.0": "f51aeb2dbf8f67c8fa396628af45793e3513067d45705f1ea158f5c678bb0cea",
+    "https://esm.sh/zod@3.22.4": "58f997d2fb4d837fdccc359937cfa92ec0c2870fcda1e58fa52eadd998b06dd1"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@nuxt/eslint-config@0.6",
+        "npm:@nuxtjs/google-fonts@^3.2.0",
+        "npm:@nuxtjs/i18n-edge@^10.2.3-29536869.d9a1a2c",
+        "npm:@nuxtjs/sitemap@^7.6.0",
+        "npm:@nuxtjs/tailwindcss@^6.12.0",
+        "npm:@phosphor-icons/vue@^2.2.1",
+        "npm:@sentry/nuxt@^10.40.0",
+        "npm:@stripe/stripe-js@^8.8.0",
+        "npm:@supabase/supabase-js@^2.39.0",
+        "npm:@tanstack/vue-query@^5.17.0",
+        "npm:@vite-pwa/nuxt@~0.10.6",
+        "npm:@vitejs/plugin-vue@^5.2.1",
+        "npm:@vue/test-utils@^2.4.2",
+        "npm:clsx@^2.1.0",
+        "npm:eslint@^9.15.0",
+        "npm:happy-dom@^15.11.0",
+        "npm:heic2any@^0.0.4",
+        "npm:knip@^5.85.0",
+        "npm:nuxt@^3.14.0",
+        "npm:tailwind-merge@^2.2.1",
+        "npm:tailwindcss@^3.4.1",
+        "npm:typescript@^5.3.3",
+        "npm:vitest@^3.2.0",
+        "npm:vue-tsc@^3.2.5",
+        "npm:vue@^3.5.0"
+      ]
+    }
+  }
+}

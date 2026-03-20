@@ -1,0 +1,125 @@
+{
+    "blog": {
+        "title": "The YumiScan Blog",
+        "index": {
+            "title": "Blog",
+            "subtitle": "Travel in Japan, food allergies, and labels: our guides and tips.",
+            "back_home": "Back to Home",
+            "back_blog": "Back to Blog"
+        },
+        "article_not_found": "Article not found",
+        "signup_cta": {
+            "guest": {
+                "badge": "Take the next step",
+                "title": "Give your next purchase a smarter label check",
+                "description": "Create your YumiScan account, add your allergen profile, and let AI decode the label before you buy. Your first 3 scans are free.",
+                "button": "Create my account"
+            },
+            "user": {
+                "badge": "Scan with AI",
+                "title": "Your profile is ready, now let the label talk",
+                "description": "Launch an AI scan with your saved allergen profile and get a clearer answer before you buy.",
+                "button": "Scan with AI"
+            }
+        },
+        "articles": {
+            "voyage-japon-allergies-guide-survie": {
+                "title": "Traveling to Japan with food allergies: the survival guide (restaurants, konbini, useful phrases)",
+                "metaTitle": "Food allergies in Japan: survival guide (restaurants & konbini)",
+                "metaDescription": "Trip to Japan with allergies/intolerances: pre-departure checklist, allergy card in Japanese, pitfalls (dashi, soy sauce), reading labels, and restaurant tips.",
+                "excerpt": "A trip to Japan with food allergies requires preparation. Between omnipresent dashi, sauces, and the language barrier, hidden allergens are common. In this guide, you will find a full checklist, Japanese phrases, tips for restaurants and konbini, and a plan B to eat peacefully.",
+                "tags": {
+                    "travel": "Travel",
+                    "food_allergies": "Food Allergies",
+                    "japan": "Japan",
+                    "gluten_free": "Gluten-free",
+                    "restaurants": "Restaurants",
+                    "konbini": "Konbini"
+                },
+                "body": {
+                    "p1": "Traveling to Japan is a dream for food lovers... until you have to manage a food allergy or intolerance thousands of miles away. The difficulty is not only the language: some ingredients are considered \"bases\" (broths, sauces, seasonings) and are not immediately obvious.",
+                    "p2": "The first trap is the invisible: dashi (broth, often fish-based) and soy sauce are everywhere (ramen, sauces, marinades, dressings). Another classic: soy sauce may contain wheat. Add to that breadings (panko), mayonnaises, noodles, thickeners, and the chef's \"little touches\"... and you understand why a clear strategy makes all the difference.",
+                    "p3": "## Before leaving: the safety checklist",
+                    "p4": "Prepare as you would for a hike: (1) medical appointment if necessary, (2) treatments and prescriptions, (3) travel insurance covering emergencies, (4) dedicated kit (antihistamines, auto-injector if prescribed), (5) physical + digital copies, (6) list of your allergens in English + Japanese. And if you are highly sensitive to cross-contamination, note it explicitly: it is often the least understood point.",
+                    "p5": "## The dietary restriction card: your best ally",
+                    "p6": "Prepare a card in Japanese that clearly states: your allergens, severity, and the request to avoid cross-contamination. Useful example: « 私は食物アレルギーがあります。◯◯（アレルゲン）を食べると重い症状が出ます。調理器具や油の共有も避けてください。 » (I have food allergies. If I eat ◯◯, I have a severe reaction. Please also avoid sharing utensils/oil).",
+                    "p7": "## At a restaurant in Japan: how to order without stress",
+                    "p8": "At the entrance, show the card before sitting down if possible. Choose restaurants accustomed to tourists (central areas), and establishments where the menu is simple and standardized. 'Build-your-own' dishes (donburi, shabu-shabu, some yakiniku) can be easier to secure if the sauces are separated.",
+                    "p9": "Ask the key question: « これは◯◯が入っていますか？ » (Is there ◯◯ in this?) and above all « 別の鍋／油／まな板で作れますか？ » (Can you cook with another utensil/oil/cutting board?). If the answer is vague, choose a fallback option: konbini, supermarket, or a more \"transparent\" restaurant (open kitchen, visible ingredients).",
+                    "p10": "## Konbini and supermarkets: the control option",
+                    "p11": "Konbinis (7-Eleven, FamilyMart, Lawson) and supermarkets are often the most reliable solution: you have the ingredients right in front of you. Look for the \"allergens\" box and ingredient lists (often long). Warning: a recipe can change (limited editions), and a product safe one week may become risky the next.",
+                    "p12": "## Plan B: eat simple, eat often",
+                    "p13": "When you are tired or in a hurry, mistakes happen. Anticipate: spot 5 to 10 \"OK\" products (by brand + reference), keep photos of their labels, and always keep an emergency snack in your bag. If you can, sometimes book accommodation with a kitchenette: a few simple meals can save a trip.",
+                    "p14": "## Emergency: better to know what to do",
+                    "p15": "Note the emergency number in Japan: 119 (ambulance). Useful phrase: « 救急車を呼んでください。食物アレルギーです。 » (Call an ambulance, it's a food allergy). If you have a prescribed auto-injector, keep it accessible and let your travel companion know.",
+                    "p16": "## Save time: scan rather than decipher",
+                    "p17": "Deciphering Japanese labels after a day of sightseeing is exhausting. Our app instantly analyzes ingredients and cross-references them with your allergy profile: scan the label, get a clear YES/NO, and focus on the trip rather than the kanjis."
+                }
+            },
+            "konbinis-etiquettes-alimentaires-japon": {
+                "title": "Konbini and supermarkets in Japan: how to read food labels and avoid allergens",
+                "metaTitle": "Labels in Japan: reading ingredients at the konbini (allergens & kanji)",
+                "metaDescription": "Learn how to decipher a Japanese label: where to find ingredients/allergens, essential kanjis, 8 mandatory allergens, trace mentions, and common konbini traps.",
+                "excerpt": "Konbinis are indispensable in Japan... and sometimes stressful when you have allergies. Good news: packaging contains an allergen section. Here is where to look, which kanjis to recognize, and how to spot pitfalls (traces, sauces, derivatives).",
+                "tags": {
+                    "konbini": "Konbini",
+                    "labels": "Labels",
+                    "allergens": "Allergens",
+                    "kanji": "Kanjis",
+                    "japan": "Japan",
+                    "food_safety": "Food Safety"
+                },
+                "body": {
+                    "p1": "Konbinis (7-Eleven, FamilyMart, Lawson) and supermarkets are a goldmine: bentos, onigiri, snacks, desserts... But faced with a 100% Japanese label, you can quickly feel lost. The right approach: knowing exactly where to look and what to spot first.",
+                    "p2": "## Key areas of a Japanese label",
+                    "p3": "On most products, look for: (1) 原材料名 (ingredient list), (2) アレルゲン / アレルギー物質 (allergens), (3) 注意 (important notes), (4) manufacturer information. The allergen box is often quicker to read than the full list, but it does not replace careful verification if you are highly sensitive.",
+                    "p4": "## The 8 major allergens to spot (mandatory on labeling)",
+                    "p5": "Remember these common writings: wheat 小麦（こむぎ）, buckwheat そば, egg 卵, milk 乳 / 乳成分, peanut 落花生 / ピーナッツ, shrimp えび, crab かに, walnut くるみ. Tip: some labels use kana (hiragana/katakana) instead of kanji.",
+                    "p6": "## The \"frequently indicated\" allergens (but to watch out for)",
+                    "p7": "Many products also mention other common allergens (e.g. soy 大豆, sesame ごま, apple りんご, peach もも, gelatin ゼラチン). If you are allergic to them, make these words your \"red alerts\".",
+                    "p8": "## The traps: synonyms and derivatives",
+                    "p9": "An allergen can hide under a derivative form: for milk, spot 乳成分 (milk components), バター (butter), ホエイ (whey), カゼイン (casein). For egg: 卵黄 (yolk), 卵白 (white). For wheat: 小麦, but also ingredients linked to breadings and doughs (e.g. パン粉 for breadcrumbs).",
+                    "p10": "## Mentions of traces and cross-contamination",
+                    "p11": "Look for formulations such as: 「本製品は◯◯を含む製品と共通の設備で製造しています」 (manufactured on common equipment with products containing ◯◯). Depending on your sensitivity level, this may be enough to avoid the product.",
+                    "p12": "## A simple in-store strategy (that really works)",
+                    "p13": "1) Start with \"simple\" products (short ingredients). 2) Check the allergen box. 3) If in doubt: move to the next. 4) Re-verify with each purchase (recipes change, especially limited editions). This method drastically reduces bad surprises.",
+                    "p14": "## Save time: from deciphering to scanning",
+                    "p15": "Even knowing a few kanjis, reading 10 packages in a row tires you out quickly. Our application is designed for Japanese labels: you enter your restrictions, scan, and get a clear answer to shop peacefully."
+                }
+            },
+            "preparer-voyage-japon-snacks-sans-risque": {
+                "title": "Snacks in Japan: what to eat and what to bring back when you have allergies (gluten, milk, egg, peanut...)",
+                "metaTitle": "Snacks in Japan: choosing and bringing back safely (travel guide)",
+                "metaDescription": "Guide to snacks in Japan for allergies/intolerances: low-risk categories, products to monitor, foolproof method (read label every time) and souvenir tips.",
+                "excerpt": "Matcha KitKats, mochis, senbeis, seaweed chips... Japan makes you want to try everything. With allergies, the golden rule remains the same: we never rely on the brand, only on the label (recipes and limited editions change).",
+                "tags": {
+                    "snacks": "Snacks",
+                    "travel": "Travel",
+                    "japan": "Japan",
+                    "food_allergies": "Food Allergies",
+                    "souvenirs": "Souvenirs",
+                    "safety": "Safety"
+                },
+                "body": {
+                    "p1": "Gourmet shopping is part of the trip to Japan: huge supermarkets, 24/7 konbinis, station shops... And when it comes to packing your suitcase with souvenirs, snacks seem like the perfect gift. With allergies or intolerances, anything is possible — provided you are methodical.",
+                    "p2": "## The golden rule (the most important one)",
+                    "p3": "A \"safe\" brand today can change tomorrow. Japan loves limited editions, collaborations, and seasonal recipes. Conclusion: do not trust the brand, trust the label. Every single purchase. Even if you consumed it the day before.",
+                    "p4": "## Categories often simpler (to check anyway)",
+                    "p5": "Rice-based products can be a good lead: some senbei (rice crackers), puffed rice, or very \"plain\" snacks sometimes have shorter ingredient lists. But beware: many are glazed with soy sauce (often wheat + soy) or contain complex flavorings/seasonings.",
+                    "p6": "## Mochis: the perfect example of a false friend",
+                    "p7": "A traditional mochi can be simple (glutinous rice + red bean paste). But in konbinis, modern versions often add cream, butter, biscuits, or thickeners. The exact same product can exist in several almost identical variants: always look at the label, not the photo.",
+                    "p8": "## High-risk areas",
+                    "p9": "Be particularly careful with: pastries (flour, eggs, milk), \"creamy\" chocolates and confectioneries, \"ramen\" type snacks (wheat), curries/seasonings (blends), sauces and dips, as well as anything that mentions \"creamy\" or contains multiple powders/flavors.",
+                    "p10": "## What to bring back as a souvenir (easier ideas to manage)",
+                    "p11": "Depending on your allergens, non-food souvenirs (tea, accessories) can avoid stress. On the food side, products with a short ingredient list and a clear allergen box are your best candidates. Take a picture of the label before buying it, and keep the picture to double-check upon returning home.",
+                    "p12": "## Suitcase tip: pack an emergency \"snack kit\"",
+                    "p13": "Bring 2-3 safe snacks from home for long journeys, layovers, or days when you can't find anything reliable. This reduces pressure and lowers the risk of making a \"default\" decision when you're hungry.",
+                    "p14": "## Shopping faster: from the aisle to the decision",
+                    "p15": "To avoid spending 20 minutes in front of a shelf, use a simple method: (1) filter by category, (2) check the allergen box, (3) read the ingredients if in doubt, (4) put it back if uncertain. Our application can speed up this step by scanning the label and automatically comparing it to your profile.",
+                    "p16": "## In summary: pleasure, but discipline",
+                    "p17": "Japan is a snack paradise, even with allergies — as long as you maintain the \"label every time\" discipline. With a shortlist of benchmark products, a Plan B, and the right tools, you can enjoy discoveries without turning every purchase into a risk."
+                }
+            }
+        }
+    }
+}

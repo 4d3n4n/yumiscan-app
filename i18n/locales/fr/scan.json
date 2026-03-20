@@ -1,0 +1,332 @@
+{
+    "scan": {
+        "scan": {
+        "overlay": {
+            "analyze_button": "Analyser l'ingrédient",
+            "error_file_type": "Veuillez choisir une image (JPEG, PNG, HEIC, etc.).",
+            "error_processing": "Impossible de traiter l'image. Veuillez réessayer.",
+            "error_unauthorized": "Vous devez être connecté.",
+            "error_network": "La requête a échoué (réseau ou configuration). Si le scan a bien été lancé, vérifiez votre historique des scans.",
+            "error_generic": "Scan impossible. Réessayez avec une photo nette.",
+            "loading_image": "Traitement de l'image..."
+        },
+        "actions": {
+            "disclaimer_title": "Note de responsabilité",
+            "disclaimer_text": "L'IA est une aide à la décision et n'est pas infaillible. Vérifiez toujours l'emballage en cas de doute."
+        },
+        "choice": {
+            "title": "Nouvelle analyse",
+            "subtitle": "Choisissez la source de l'image",
+            "btn_camera": "Appareil Photo",
+            "btn_gallery": "Galerie",
+            "no_credits_title": "Vos credits sont épuisés",
+            "no_credits_desc": "Rechargez en quelques clics et retrouvez la tranquillité : étiquettes décodées, allergènes repérés. Vos crédits n’expirent jamais.",
+            "btn_recharge": "Voir les offres et recharger",
+            "btn_cancel": "Annuler"
+        },
+        "camera": {
+            "title": "Scan IA",
+            "instruction_badge": "Alignez les ingrédients",
+            "instruction_text": "Prenez une photo nette de la liste {br} d'ingrédients en japonais",
+            "instruction_br": " ",
+            "instruction_subtext": "Évitez les reflets et le flou",
+            "btn_gallery": "Galerie",
+            "btn_switch": "Inverser",
+            "capture_aria": "Prendre une photo",
+            "error_unsupported": "La caméra n'est pas supportée.",
+            "error_access": "Impossible d'accéder à la caméra."
+        },
+        "preview": {
+            "title": "Prévisualisation",
+            "btn_back": "Retour",
+            "btn_retake": "Utiliser la camera",
+            "instruction_badge": "Alignez les ingrédients",
+            "instruction_text": "Prenez une photo nette de la liste {br} d'ingrédients en japonais",
+            "instruction_subtext": "Évitez les reflets et le flou",
+            "btn_gallery": "Galerie",
+            "btn_scan": "Scanner avec l'IA",
+            "btn_scan_loading": "Analyse IA...",
+            "btn_criteria": "Critères",
+            "lbl_no_allergens": "Aucun allergène sélectionné",
+            "lbl_allergens_selected": "{count} allergène(s) sélectionné(s)",
+            "action_modify": "Modifier",
+            "action_close": "Fermer",
+            "sheet_title": "Mes allergènes",
+            "allergen_count": "{count} allergène(s) sélectionné(s)",
+            "no_allergens": "Aucun allergène sélectionné",
+            "btn_edit": "Modifier",
+            "btn_close": "Fermer",
+            "btn_analyzing": "Analyse IA...",
+            "btn_scan_ai": "Scanner avec l'IA",
+            "title_allergens": "Mes allergènes"
+        },
+        "filters": {
+            "title": "Allergenes a detecter",
+            "subtitle": "Selectionnez ceux a verifier automatiquement.",
+            "loading": "Chargement des allergenes..."
+        },
+        "result": {
+            "status_ok": "C'est bon !",
+            "status_warning": "Attention",
+            "status_danger": "Allergène détecté",
+            "btn_rescan": "Ré-scanner avec l'IA",
+            "passport": {
+                "label_ok": "AUTORISÉ",
+                "label_restricted": "RESTREINT",
+                "label_suspended": "SUSPENDU",
+                "label_refused": "REFUSÉ",
+                "title_analysis": "ANALYSE DU CONTENU",
+                "title_refusal": "MOTIF DU REFUS / ALERTE",
+                "title_ok": "ÉLÉMENTS CONFORMES"
+            }
+        },
+        "detail": {
+            "title": "Détails du scan",
+            "lbl_allergens_active": "Vos allergènes choisis pour ce scan",
+            "product_scanned": "Produit scanné",
+            "product_scanned_unavailable": "Impossible de recharger l'image du produit.",
+            "allergens_detected": "Allergenes detectes",
+            "ingredients": "Ingrédients",
+            "scan_progress": "Avancement du scan",
+            "processing_title": "Analyse en cours",
+            "processing_leave_warning": "Un rafraîchissement ou une fermeture de page demandera une confirmation tant que l'analyse n'est pas terminée.",
+            "progress_batches_label": "Lots terminés",
+            "progress_items_label": "Ingrédients révélés",
+            "processing_signals_label": "Signaux repérés",
+            "processing_results_title": "Décodage en direct",
+            "processing_waiting_more": "De nouveaux ingrédients apparaissent automatiquement pendant l'analyse.",
+            "processing_remaining_title": "L'analyse continue",
+            "processing_stream_empty": "Le scan lit encore l'étiquette. Les premiers ingrédients vont apparaître.",
+            "processing_badge_allergen": "Allergène",
+            "processing_badge_ambiguous": "À vérifier",
+            "processing_badge_ok": "Validé",
+            "processing_group_allergens": "Allergènes détectés",
+            "processing_group_ambiguous": "Ingrédients douteux",
+            "processing_group_ok": "Ingrédients validés",
+            "failed_title": "Analyse interrompue",
+            "failed_desc": "Le scan n'a pas pu être finalisé correctement.",
+            "failed_no_credit": "Aucun crédit n'a été consommé.",
+            "failed_summary_title": "Résumé de l'échec",
+            "btn_view_analysis": "Voir analyse",
+            "btn_view_original": "Voir l'original",
+            "auto_detect": "Détection automatique",
+            "no_ingredients_detected": "Aucun ingrédient détecté",
+            "scan_confidence": "Confiance scan",
+            "accuracy_high": "Précision haute",
+            "accuracy_medium": "Précision moyenne",
+            "accuracy_low": "Précision basse",
+            "scan_date": "Analyse effectuée le {date}",
+            "btn_scan_new": "Scanner un nouveau produit",
+            "scan_not_found": "Scan introuvable",
+            "not_found": "Scan introuvable",
+            "btn_back_history": "Retour à l'historique",
+            "status_ambiguous": "DOUTEUX",
+            "assistant": {
+                "kicker": "Assistant IA",
+                "title": "Assistant IA",
+                "subtitle_ambiguous": "Comprend le doute, puis prépare vos phrases utiles.",
+                "subtitle_allergen": "Explique le blocage, puis prépare une issue plus sûre.",
+                "subtitle_mixed": "Explique le blocage, puis signale aussi les points encore flous à vérifier.",
+                "inline_description_ambiguous": "Analyse le doute et prépare vos phrases magasin.",
+                "inline_description_allergen": "Explique le blocage et aide à demander une alternative plus sûre.",
+                "inline_description_mixed": "Explique ce qui bloque déjà et ce qu'il faut encore faire préciser en magasin.",
+                "preview_title": "Ce que l'Assistant IA va préparer",
+                "preview_body_ambiguous": "Analyse rapide, points à vérifier, puis cartes en français, japonais et romaji.",
+                "preview_body_allergen": "L'essentiel, sans détour : blocage expliqué, bons points à demander, puis cartes pour viser une option plus sûre.",
+                "preview_body_mixed": "D'abord ce qui bloque déjà, puis les zones encore floues à vérifier, avec des cartes prêtes à montrer en magasin.",
+                "intro_note": "L'analyse reste à la demande. Elle utilise votre scan ambigu et vos allergènes actifs pour préparer des phrases utiles en magasin.",
+                "btn_open": "Ouvrir l'Assistant IA",
+                "btn_start": "Lancer l'analyse IA",
+                "btn_close": "Fermer",
+                "close_hint": "Vers le bas",
+                "btn_retry": "Réessayer",
+                "btn_regenerate": "Régénérer",
+                "btn_add_cards": "Ajouter des cartes",
+                "btn_copy": "Copier",
+                "btn_copied": "Copié",
+                "btn_listen": "Écouter",
+                "btn_stop": "Stop",
+                "btn_audio_loading": "Audio...",
+                "loading": "L'Assistant IA prépare l'analyse et les phrases utiles...",
+                "loading_stage_reason": "Comprendre le doute et les points sensibles",
+                "loading_stage_japanese": "Préparer du japonais naturel à montrer",
+                "loading_stage_cards": "Assembler les cartes prêtes à lire et à copier",
+                "error_title": "Assistant IA indisponible",
+                "error_generic": "Impossible de préparer l'assistance pour ce scan.",
+                "summary_title_ambiguous": "Pourquoi c'est ambigu",
+                "summary_title_allergen": "Pourquoi ce produit est bloquant",
+                "reasons_title_ambiguous": "Ce qui demande une vérification",
+                "reasons_title_allergen": "Ce qui a été détecté",
+                "checkpoints_title_ambiguous": "Ce qu'il faut demander",
+                "checkpoints_title_allergen": "Ce que vous pouvez demander",
+                "card_index": "Carte {index}",
+                "language_user": "Ma langue",
+                "language_japanese": "Japonais à montrer",
+                "language_romaji": "Romaji à lire",
+                "audio_error": "Impossible de lancer l'audio pour cette phrase.",
+                "disclaimer_title": "Prudence",
+                "context_ambiguous": "{count} ingrédient(s) ambigus",
+                "context_allergen": "{count} ingrédient(s) bloquants",
+                "context_mixed": "{blocking} ingrédient(s) bloquant(s) + {ambiguous} à vérifier",
+                "inline_hint": "Touchez pour ouvrir"
+            }
+        },
+        "ingredient": {
+            "status_ok": "Sûr",
+            "status_allergen": "Allergène",
+            "status_ambiguous": "Douteux"
+        },
+        "progress": {
+            "step_verify": "Vérification de l'image",
+            "step_process": "Traitement en cours",
+            "step_extract": "Extraction du texte",
+            "step_analyze": "Analyse des ingrédients",
+            "step_finalize": "Finalisation",
+            "lbl_decoding": "Décodage en cours...",
+            "hints": {
+                "decision_reading": {
+                    "title": "Lecture orientée décision",
+                    "description": "On repère ce qui change vraiment le verdict, comme les allergènes, le dashi ou l'alcool, au lieu de simplement réciter l'étiquette."
+                },
+                "conbini_translation": {
+                    "title": "Traduction vraiment utile en voyage",
+                    "description": "On transforme les abréviations et le jargon d'étiquetage japonais en informations actionnables : ce que vous pouvez manger ou éviter."
+                },
+                "travel_zero_surprises": {
+                    "title": "Mode voyage : zéro surprise",
+                    "description": "Si un ingrédient peut cacher un interdit, comme un extrait, un arôme ou un assaisonnement, on le remonte en priorité."
+                },
+                "ambiguity_flagged": {
+                    "title": "Ambigu = signalé, pas inventé",
+                    "description": "Quand l'étiquette reste vague, comme 香料, 調味料 ou エキス, on marque à vérifier au lieu d'inventer une certitude."
+                },
+                "quick_recheck_memory": {
+                    "title": "Mémo pratique pour la prochaine fois",
+                    "description": "Le scan garde la photo et la version décodée pour que vous puissiez rechecker un produit en quelques secondes."
+                },
+                "vertical_micro_labels": {
+                    "title": "Lecture du vertical et des micro-mentions",
+                    "description": "Les infos critiques sont parfois en petit sur le côté, en texte vertical ou dans une note d'usine. On les traque aussi."
+                },
+                "critical_headings": {
+                    "title": "Les bons titres au bon endroit",
+                    "description": "On repère vite 原材料名 pour les ingrédients, 添加物 pour les additifs, アレルゲン et les mentions de fabrication type 本品製造工場では…"
+                },
+                "allergens_ground_reality": {
+                    "title": "Allergènes : loi et réalité terrain",
+                    "description": "On met en avant les allergènes obligatoires, mais aussi ceux qu'on retrouve souvent dans les traces et contaminations croisées au Japon."
+                },
+                "often_missed_allergens": {
+                    "title": "Les allergènes qu'on oublie souvent",
+                    "description": "On surveille aussi le sésame, le soja et les fruits à coque même quand ils sont noyés dans une longue liste."
+                },
+                "hidden_parentheses": {
+                    "title": "Parenthèses = ingrédients cachés",
+                    "description": "Les sauces, tare et seasonings sont souvent détaillés entre parenthèses. On les ouvre et on liste tout."
+                },
+                "hidden_dashi_extracts": {
+                    "title": "Dashi et extraits invisibles",
+                    "description": "On détecte だし, エキス, 粉末 ou les bases poisson/fruits de mer pour éviter le faux produit végétarien."
+                },
+                "hidden_pork_derivatives": {
+                    "title": "Porc discret : graisses et dérivés",
+                    "description": "On cherche ラード, ゼラチン, 豚エキス et autres dérivés souvent cachés dans des extraits ou des assaisonnements."
+                },
+                "hidden_alcohol_seasoning": {
+                    "title": "Alcool masqué en assaisonnement",
+                    "description": "Mirin, saké de cuisine ou alcool alimentaire peuvent se cacher derrière 調味料 ou 調味液. On les isole clairement."
+                },
+                "gluten_beyond_wheat": {
+                    "title": "Gluten : pas seulement 小麦",
+                    "description": "On surveille aussi le malt, l'orge et les produits où le blé est implicite, comme certaines sauces soja ou bases de bouillon."
+                },
+                "milk_tripwire": {
+                    "title": "Lait : le trio qui piège souvent",
+                    "description": "On remonte séparément les composants laitiers, la whey et le lactose pour éviter les faux sans lait."
+                },
+                "seafood_indirect_signals": {
+                    "title": "Fruits de mer : indices indirects",
+                    "description": "Au-delà de crevette et crabe, on détecte aussi les extraits de coquillage, de poisson ou d'huître."
+                },
+                "soba_red_flag": {
+                    "title": "Soba : signal rouge immédiat",
+                    "description": "Le sarrasin peut apparaître dans des snacks, sauces ou traces usine. On le met tout en haut car c'est critique pour beaucoup."
+                },
+                "peanut_and_nuts": {
+                    "title": "Arachide et noix clairement distinguées",
+                    "description": "On reconnaît les variantes japonaises et on distingue bien arachide et fruits à coque."
+                },
+                "industrial_umami": {
+                    "title": "Umami industriel décodé",
+                    "description": "On repère les mélanges d'acides aminés et nucléotides pour rendre les additifs goût plus lisibles."
+                },
+                "additives_by_role": {
+                    "title": "Additifs regroupés par rôle",
+                    "description": "Au lieu d'une liste interminable, on classe les additifs par usage : conservateurs, colorants, émulsifiants, acidifiants."
+                },
+                "polyols_warning": {
+                    "title": "Polyols = alerte ventre sensible",
+                    "description": "En voyage, xylitol, sorbitol ou maltitol peuvent surprendre. On les met en évidence quand ils apparaissent."
+                },
+                "trace_factory_language": {
+                    "title": "Traces : formulation japonaise reconnue",
+                    "description": "On comprend les phrases d'usine comme 同一ライン ou 本品製造工場では… et on les reformule clairement."
+                },
+                "gmo_wording": {
+                    "title": "OGM : éviter les contresens",
+                    "description": "Les mentions sur les OGM et la traçabilité n'ont pas toutes le même sens. On les reformule en français clair."
+                },
+                "manufacturer_contact": {
+                    "title": "Fabricant et contact : filet de sécurité",
+                    "description": "On extrait la marque, l'usine, l'importateur et les contacts quand ils sont présents, utile pour vérifier sur place."
+                },
+                "japanese_dates": {
+                    "title": "Dates japonaises : DDM ou DLC",
+                    "description": "On distingue qualité et sécurité, et on lit les formats de date japonais sans ambiguïté."
+                },
+                "salt_equivalent": {
+                    "title": "Sel utile : 食塩相当量",
+                    "description": "On remonte la donnée de sel équivalent quand elle est présente, car c'est souvent l'info nutrition la plus parlante au Japon."
+                },
+                "multiple_scripts": {
+                    "title": "Un même ingrédient, plusieurs écritures",
+                    "description": "Kanji, kana et katakana peuvent désigner le même ingrédient. On unifie pour garder vos filtres fiables."
+                },
+                "catch_all_words": {
+                    "title": "Mots fourre-tout sous microscope",
+                    "description": "Quand un terme générique peut cacher du poisson, de l'alcool ou des dérivés animaux, on le signale explicitement."
+                },
+                "conbini_plan_b": {
+                    "title": "Plan B conbini vraiment utile",
+                    "description": "Si un produit est borderline, on vous aide à viser des catégories souvent plus transparentes."
+                },
+                "frequent_products_cache": {
+                    "title": "Reconnaissance rapide des produits récurrents",
+                    "description": "On accélère sur les classiques de voyage comme onigiri, cup noodles ou snacks sans sacrifier la précision."
+                },
+                "photo_guidance": {
+                    "title": "Photo tordue : on vous guide",
+                    "description": "Si la photo est floue ou mal cadrée, on vous rappelle quelle zone viser : ingrédients et notes usine, pas le marketing."
+                },
+                "final_verdict": {
+                    "title": "Verdict final : cohérence avant vitesse",
+                    "description": "On recoupe le tout avec votre profil allergènes et vos contraintes, en privilégiant la prudence quand une info manque."
+                }
+            }
+        },
+        "cta": {
+            "btn_label": "Scanner avec l'IA",
+            "btn_loading": "Analyse IA..."
+        },
+        "passport": {
+            "status_ok": "AUTORISÉ",
+            "status_allergen": "ALLERGÈNE",
+            "status_ambiguous": "DOUTEUX",
+            "status_refused": "REFUSÉ",
+            "section_analysis": "ANALYSE DU CONTENU",
+            "section_alert": "MOTIF DU REFUS / ALERTE",
+            "section_safe": "ÉLÉMENTS CONFORMES"
+        }
+        }
+    }
+}

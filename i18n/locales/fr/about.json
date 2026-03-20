@@ -1,0 +1,86 @@
+{
+  "about": {
+    "meta_title": "À propos de YumiScan — L’histoire derrière l’app",
+    "meta_description": "Découvrez pourquoi YumiScan a été créé après un voyage au Japon, pour aider chacun à comprendre ce qu’il mange et éviter la frustration liée aux allergènes et régimes stricts.",
+    "title": "À propos de YumiScan",
+    "subtitle": "Une app née d’un voyage, d’une frustration bien réelle, et d’une obsession simple : savoir ce qu’on mange.",
+    "hero_badge": "Notre histoire",
+    "hero_intro": "YumiScan a été imaginé pour celles et ceux qui refusent d’acheter ou de manger à l’aveugle quand leur santé, leurs convictions ou leur mode de vie sont en jeu.",
+    "story_title": "Le point de départ : le Japon",
+    "story_p1": "Depuis l’enfance, je rêvais de voyager au Japon. Quand j’ai enfin pu y vivre ce voyage comme je l’imaginais, j’ai voulu en profiter pleinement, découvrir, acheter, goûter et explorer sans retenue.",
+    "story_p2": "Mais à chaque passage en magasin, la même friction revenait : il fallait traduire les ingrédients encore et encore. Quand on suit un régime strict, acheter un produit devient vite stressant, lent et frustrant.",
+    "story_p3": "De retour de ce voyage, l’idée est devenue évidente : construire un outil qui aide à comprendre rapidement une étiquette alimentaire, sans devoir improviser à chaque fois.",
+    "mission_title": "Pourquoi YumiScan existe",
+    "mission_p1": "YumiScan aide à réduire la frustration liée aux régimes alimentaires, aux allergènes et aux contraintes personnelles. L’objectif n’est pas seulement de scanner un texte : c’est de redonner de la sérénité au moment d’acheter.",
+    "mission_p2": "Mieux comprendre ce qu’on mange, c’est mieux protéger sa santé, respecter ses principes moraux et éviter les erreurs coûteuses ou dangereuses.",
+    "founder_title": "Le projet derrière le produit",
+    "founder_p1": "Je suis un software engineer italien basé en France. YumiScan est né d’un problème concret vécu sur le terrain, puis transformé en produit utile, simple et pensé pour la vraie vie.",
+    "founder_p2": "L’ambition est claire : créer une expérience rapide, rassurante et accessible pour toutes les personnes qui doivent vérifier ce qu’elles consomment avant d’acheter.",
+    "audience_title": "Pour qui YumiScan a été pensé",
+    "audience_items": {
+      "1": "Les personnes qui vivent avec des allergies ou des intolérances alimentaires.",
+      "2": "Les voyageurs et expatriés confrontés à des étiquettes qu’ils ne lisent pas facilement.",
+      "3": "Les personnes qui suivent un régime précis pour des raisons de santé, d’éthique ou de conviction.",
+      "4": "Tous ceux qui veulent acheter avec plus de clarté et moins d’incertitude."
+    },
+    "principles_title": "Ce qu’on veut changer",
+    "principles_items": {
+      "1": "Supprimer le sentiment de se jeter à l’aveugle sur des aliments qu’on ne comprend pas.",
+      "2": "Réduire le stress lié aux achats alimentaires dans un contexte inconnu.",
+      "3": "Aider chacun à faire des choix plus alignés avec sa santé et ses principes.",
+      "4": "Rendre la lecture d’étiquettes plus simple, plus rapide et plus rassurante."
+    },
+    "reassurance_title": "Une aide à la décision, pas un remplacement",
+    "reassurance_p1": "YumiScan est conçu comme une aide pratique pour mieux lire et interpréter les listes d’ingrédients. En cas d’allergie sévère ou de doute, la vérification de l’emballage d’origine reste indispensable.",
+    "cta": {
+      "guest": {
+        "badge": "Passez à l'action",
+        "title": "Arrêtez d'acheter à l'aveugle",
+        "description": "Créez votre compte, configurez vos allergènes et laissez l'IA vous aider à lire une étiquette avant de passer en caisse.",
+        "button": "Créer mon compte"
+      },
+      "user": {
+        "badge": "Scanner avec l'IA",
+        "title": "Votre prochain scan peut partir maintenant",
+        "description": "Votre profil est déjà prêt. Ouvrez le scanner IA et obtenez une réponse plus claire avant d'acheter.",
+        "button": "Scanner avec l'IA"
+      }
+    }
+  },
+  "terms": {
+    "meta_title": "CGV YumiScan — Conditions Générales de Vente",
+    "meta_description": "Consultez les Conditions Générales de Vente de YumiScan : crédits de scan, paiement Stripe, rétractation, remboursements et informations légales.",
+    "title": "Conditions Générales de Vente",
+    "subtitle": "Vente de crédits de scan YumiScan aux utilisateurs particuliers.",
+    "intro_badge": "CGV B2C",
+    "intro_notice": "Ces CGV encadrent uniquement l’achat de crédits de scan sur YumiScan. Elles complètent les CGU applicables à l’utilisation du service.",
+    "company_title": "Informations sur le vendeur",
+    "company_name_label": "Nom public",
+    "legal_entity_label": "Entité légale",
+    "address_label": "Adresse",
+    "country_label": "Pays",
+    "siret_label": "SIRET",
+    "vat_label": "TVA",
+    "publication_director_label": "Directeur de publication",
+    "contact_label": "Contact",
+    "credit_offer_title": "1. Produits vendus",
+    "credit_offer_p1": "YumiScan commercialise des crédits numériques permettant de lancer des scans d’étiquettes alimentaires dans l’application. Les packs disponibles et leur tarif sont affichés au moment de l’achat.",
+    "credit_offer_p2": "Aucun abonnement récurrent n’est souscrit. L’utilisateur achète des crédits à l’unité via des packs ponctuels.",
+    "payment_title": "2. Paiement",
+    "payment_p1": "Le paiement est traité de manière sécurisée par Stripe. YumiScan ne stocke aucune donnée de carte bancaire.",
+    "payment_p2": "La commande est considérée comme confirmée dès validation du paiement par Stripe et crédit effectif du compte utilisateur.",
+    "credits_title": "3. Utilisation des crédits",
+    "credits_p1": "Chaque scan lancé consomme un crédit selon les règles du service. Les crédits gratuits disponibles sur le compte sont utilisés avant les crédits payants uniquement lorsque le crédit journalier n’est plus disponible.",
+    "credits_p2": "Les crédits payants n’expirent pas tant que le compte utilisateur reste actif.",
+    "refund_title": "4. Rétractation et remboursement",
+    "refund_p1": "En raison de la nature numérique des crédits de scan et de leur activation immédiate après paiement, l’exécution du service commence sans délai après la commande.",
+    "refund_p2": "Sauf disposition légale impérative contraire, les crédits déjà crédités sur le compte ne sont pas remboursables. En cas de difficulté de paiement ou de crédit non reçu, l’utilisateur doit passer par la page Contact avant toute procédure de contestation bancaire.",
+    "liability_title": "5. Responsabilité",
+    "liability_p1": "YumiScan vend un droit d’usage de crédits numériques pour accéder à un service d’analyse. La responsabilité de l’éditeur reste limitée dans les conditions prévues par les CGU et la législation applicable.",
+    "support_title": "6. Support",
+    "support_p1": "Pour toute question relative à une commande, un paiement ou l’utilisation des crédits, l’utilisateur peut utiliser la page Contact de YumiScan.",
+    "law_title": "7. Droit applicable",
+    "law_p1": "Les présentes CGV sont soumises au droit français. En cas de litige et après tentative de résolution amiable, les juridictions françaises compétentes pourront être saisies.",
+    "footer": "CGV YumiScan — Version publique en vigueur"
+  }
+}

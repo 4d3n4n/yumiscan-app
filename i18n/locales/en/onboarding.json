@@ -1,0 +1,87 @@
+{
+    "onboarding": {
+        "skip": "Skip",
+        "btn_prev": "Back",
+        "btn_next": "Next",
+        "btn_start": "Start",
+        "slides": {
+            "slide_1": {
+                "title": "Welcome to YumiScan",
+                "desc": "Scan Japanese food labels and get a clear verdict based on your allergen profile."
+            },
+            "slide_2": {
+                "title": "Take a photo, let AI analyze it",
+                "desc": "Frame the ingredient list, launch the scan, and let YumiScan read, translate, and classify the ingredients for you.",
+                "pill": "AI Scan"
+            },
+            "slide_3": {
+                "title": "Get a result that is easy to act on",
+                "desc": "Detected allergens, ambiguous ingredients, and safe items are grouped together so you can decide quickly and clearly.",
+                "pill": "Clear verdict"
+            },
+            "scan_frame": {
+                "title": "Focus on the ingredient list first",
+                "desc": "You do not need the full package in the photo. Move closer until the whole list is readable and the text stays sharp.",
+                "image_alt": "Proper framing of the ingredient list on a food label",
+                "callout_top": "Full ingredient list in view",
+                "callout_bottom": "Keep the text sharp",
+                "tip_1": "Keep the entire ingredient list inside the frame.",
+                "tip_2": "Do not cut off the beginning or end of the text.",
+                "tip_3": "Fill the photo with useful text, not extra packaging."
+            },
+            "scan_quality": {
+                "title": "Avoid glare and hold the shot steady",
+                "desc": "Set the product down or steady your hand for a second. Clean light and a stable shot produce faster, more reliable results.",
+                "image_alt": "Sharp ingredient list before scanning",
+                "callout_top": "Even light, no glare",
+                "callout_bottom": "A stable shot helps the analysis",
+                "tip_1": "Keep fingers and shadows away from the text.",
+                "tip_2": "Avoid shiny reflections or tilt the product slightly.",
+                "tip_3": "Wait for a sharp image before starting the scan."
+            },
+            "assistant": {
+                "title": "The AI Assistant helps you in store",
+                "desc": "When an ingredient stays ambiguous, YumiScan explains the doubt and prepares ready-to-show phrases in Japanese, with romaji if you prefer pronunciation.",
+                "preview_title": "AI Assistant",
+                "preview_summary": "Understand the doubt and prepare a useful store question",
+                "user_label": "My language",
+                "user_text": "Could you please check whether this product contains this allergen or any traces?",
+                "japanese_label": "Japanese",
+                "japanese_text": "この商品にこのアレルゲン、または微量混入があるか確認していただけますか。",
+                "romaji_label": "Romaji",
+                "romaji_text": "Kono shohin ni kono arerugen, matawa biryo konnyu ga aru ka kakunin shite itadakemasu ka."
+            },
+            "slide_4": {
+                "title": "Add {mobile} to your home screen",
+                "mobile_label": "YumiScan",
+                "desc": "Install the app like a real app so it is always one tap away while shopping or traveling.",
+                "ios": {
+                    "step_1": "Tap",
+                    "step_1_strong": "Share",
+                    "step_1_end": "in Safari",
+                    "step_2": "Then choose",
+                    "step_2_strong": "Add to Home Screen"
+                },
+                "ios_other": {
+                    "warning": "To install the app on iPhone, first open this page in {safari}.",
+                    "safari_label": "Safari",
+                    "step_1": "Then open the",
+                    "step_1_strong": "Share",
+                    "step_2": "Then choose",
+                    "step_2_strong": "Add to Home Screen"
+                },
+                "android": {
+                    "step_1": "Open the menu",
+                    "step_1_end": "in Chrome",
+                    "step_2": "Then tap",
+                    "step_2_strong": "Install app"
+                },
+                "desktop": {
+                    "step_1": "Click",
+                    "step_1_strong": "Install",
+                    "step_1_end": "in the address bar"
+                }
+            }
+        }
+    }
+}

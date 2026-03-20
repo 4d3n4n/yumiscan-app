@@ -1,0 +1,1275 @@
+{
+    "id": "1d7c3b44-280a-4499-9fcb-c702707266c9",
+    "user_id": "490dbd6e-4790-4417-8105-2dd3b1842a73",
+    "created_at": "2026-03-07T16:34:01.096458+00:00",
+    "image_storage_path": "490dbd6e-4790-4417-8105-2dd3b1842a73/1bacef5b-8348-42f8-a3dc-cec8a86ad409.webp",
+    "certified_raw_text": "白飯(国産米)、白身魚フライ、スパゲッティ、ポテトサラダ、タルタルソース (\n植物油脂、ピクルス、砂糖、醸造酢、その他)、玉子\n焼、蓮根牛蒡人参金平、レモン、大根酢漬、リーフレ\nタス、黒ごま、粉パセリ / PH調整剤、調味料(アミ\nノ酸等)、グリシン、加工デンプン、増粘剤(増粘多\n糖類、加工デンプン)、酢酸Na、酸味料、パプリカ\n色素、野菜色素、酸化防止剤(V.C)、カラメル色素、\n乳化剤、ウコン色素、香辛料抽出物、(一部に小\n麦・卵・ごま・大豆を含む)",
+    "product_status": "contains_allergen",
+    "result_json": {
+        "meta": {
+            "phases_completed": [
+                "0",
+                "0.5",
+                "1",
+                "1.5",
+                "2",
+                "7",
+                "8"
+            ],
+            "detected_language": "fr"
+        },
+        "debug": {
+            "phase0": {
+                "is_valid": true,
+                "raw_text_draft": "白飯(国産米) 白身魚フライ、スパゲッティ、ポテトサラダ、タルタルソース (\n植物油脂、ピクルス、砂糖、醸造酢、その他)、玉子\n焼、蓮根牛蒡人参金平、レモン、大根酢漬 リーフレ\nタス、黒ごま、 粉パセリ / PH調整剤、調味料(アミ\nノ酸等)、グリシン、加工デンプン、増粘剤(増粘多\n糖類、 加工デンプン)、酢酸Na、酸味料、 パプリカ\n色素、 野菜色素、酸化防止剤(V.C)、カラメル色素、\n乳化剤、ウコン色素、香辛料抽出物、(一部に小\n卵・ごま・大豆を含む)",
+                "ocr_raw_from_vision": "408534\n名称: 弁当 原材料名 白飯(国産米) 白身魚フラ\nイ、スパゲッティ、ポテトサラダ、タルタルソース (\n植物油脂、ピクルス、砂糖、醸造酢、その他)、玉子\n焼、蓮根牛蒡人参金平、レモン、大根酢漬 リーフレ\nタス、黒ごま、 粉パセリ / PH調整剤、調味料(アミ\nノ酸等)、グリシン、加工デンプン、増粘剤(増粘多\n糖類、 加工デンプン)、酢酸Na、酸味料、 パプリカ\n色素、 野菜色素、酸化防止剤(V.C)、カラメル色\n乳化剤、ウコン色素、香辛料抽出物、(一部に小\n卵・ごま・大豆を含む)\n"
+            },
+            "phase1": {
+                "tree_roots": [
+                    {
+                        "id": "root-0",
+                        "raw": "白飯(国産米)",
+                        "clean_text": "白飯",
+                        "has_children": true
+                    },
+                    {
+                        "id": "root-1",
+                        "raw": "白身魚フライ",
+                        "clean_text": "白身魚フライ",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-2",
+                        "raw": "スパゲッティ",
+                        "clean_text": "スパゲッティ",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-3",
+                        "raw": "ポテトサラダ",
+                        "clean_text": "ポテトサラダ",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-4",
+                        "raw": "タルタルソース (植物油脂、ピクルス、砂糖、醸造酢、その他)",
+                        "clean_text": "タルタルソース",
+                        "has_children": true
+                    },
+                    {
+                        "id": "root-5",
+                        "raw": "玉子焼",
+                        "clean_text": "玉子焼",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-6",
+                        "raw": "蓮根牛蒡人参金平",
+                        "clean_text": "蓮根牛蒡人参金平",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-7",
+                        "raw": "レモン",
+                        "clean_text": "レモン",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-8",
+                        "raw": "大根酢漬",
+                        "clean_text": "大根酢漬",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-9",
+                        "raw": "リーフレタス",
+                        "clean_text": "リーフレタス",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-10",
+                        "raw": "黒ごま",
+                        "clean_text": "黒ごま",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-11",
+                        "raw": "粉パセリ",
+                        "clean_text": "粉パセリ",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-12",
+                        "raw": "PH調整剤",
+                        "clean_text": "PH調整剤",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-13",
+                        "raw": "調味料(アミノ酸等)",
+                        "clean_text": "調味料",
+                        "has_children": true
+                    },
+                    {
+                        "id": "root-14",
+                        "raw": "グリシン",
+                        "clean_text": "グリシン",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-15",
+                        "raw": "加工デンプン",
+                        "clean_text": "加工デンプン",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-16",
+                        "raw": "増粘剤(増粘多糖類、加工デンプン)",
+                        "clean_text": "増粘剤",
+                        "has_children": true
+                    },
+                    {
+                        "id": "root-17",
+                        "raw": "酢酸Na",
+                        "clean_text": "酢酸Na",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-18",
+                        "raw": "酸味料",
+                        "clean_text": "酸味料",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-19",
+                        "raw": "パプリカ色素",
+                        "clean_text": "パプリカ色素",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-20",
+                        "raw": "野菜色素",
+                        "clean_text": "野菜色素",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-21",
+                        "raw": "酸化防止剤(V.C)",
+                        "clean_text": "酸化防止剤",
+                        "has_children": true
+                    },
+                    {
+                        "id": "root-22",
+                        "raw": "カラメル色素",
+                        "clean_text": "カラメル色素",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-23",
+                        "raw": "乳化剤",
+                        "clean_text": "乳化剤",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-24",
+                        "raw": "ウコン色素",
+                        "clean_text": "ウコン色素",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-25",
+                        "raw": "香辛料抽出物",
+                        "clean_text": "香辛料抽出物",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-26-0",
+                        "raw": "一部に小麦",
+                        "clean_text": "一部に小麦",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-26-1",
+                        "raw": "卵",
+                        "clean_text": "卵",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-26-2",
+                        "raw": "ごま",
+                        "clean_text": "ごま",
+                        "has_children": false
+                    },
+                    {
+                        "id": "root-26-3",
+                        "raw": "大豆を含む",
+                        "clean_text": "大豆を含む",
+                        "has_children": false
+                    }
+                ],
+                "pre_tokenization_normalized": "白飯(国産米)、白身魚フライ、スパゲッティ、ポテトサラダ、タルタルソース (植物油脂、ピクルス、砂糖、醸造酢、その他)、玉子焼、蓮根牛蒡人参金平、レモン、大根酢漬、リーフレタス、黒ごま、粉パセリ / PH調整剤、調味料(アミノ酸等)、グリシン、加工デンプン、増粘剤(増粘多糖類、加工デンプン)、酢酸Na、酸味料、パプリカ色素、野菜色素、酸化防止剤(V.C)、カラメル色素、乳化剤、ウコン色素、香辛料抽出物、(一部に小麦、卵、ごま、大豆を含む)"
+            },
+            "phase2": {
+                "allergens": [
+                    {
+                        "raw": "一部に小麦",
+                        "reason": "Famille: Halal",
+                        "normalized": "contient une partie de blé"
+                    },
+                    {
+                        "raw": "卵",
+                        "reason": "Famille: Halal",
+                        "normalized": "œuf"
+                    },
+                    {
+                        "raw": "ごま",
+                        "reason": "Famille: Halal",
+                        "normalized": "sésame"
+                    },
+                    {
+                        "raw": "大豆を含む",
+                        "reason": "Famille: Halal",
+                        "normalized": "contient du soja"
+                    }
+                ],
+                "ambiguous": [
+                    {
+                        "raw": "タルタルソース",
+                        "reason": "Composition non détaillée",
+                        "normalized": "sauce tartare"
+                    },
+                    {
+                        "raw": "その他",
+                        "reason": "Composition incomplète",
+                        "normalized": "autre"
+                    },
+                    {
+                        "raw": "調味料",
+                        "reason": "Source non détaillée",
+                        "normalized": "assaisonnement"
+                    },
+                    {
+                        "raw": "アミノ酸等",
+                        "reason": "Composition non détaillée",
+                        "normalized": "acides aminés, etc."
+                    },
+                    {
+                        "raw": "加工デンプン",
+                        "reason": "Type d'amidon non spécifié",
+                        "normalized": "amidon modifié"
+                    },
+                    {
+                        "raw": "増粘剤",
+                        "reason": "Type d'épaississant non spécifié",
+                        "normalized": "épaississant"
+                    },
+                    {
+                        "raw": "増粘多糖類",
+                        "reason": "Type de polysaccharide non spécifié",
+                        "normalized": "polysaccharide épaississant"
+                    },
+                    {
+                        "raw": "加工デンプン",
+                        "reason": "Type d'amidon non spécifié",
+                        "normalized": "amidon modifié"
+                    }
+                ]
+            },
+            "phase7": {
+                "tree_roots": 30,
+                "ingredient_tree": [
+                    {
+                        "id": "root-0",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "riz blanc",
+                        "main_text_jp": "白飯",
+                        "sub_ingredients": [
+                            {
+                                "id": "root-0-0",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "riz cultivé au Japon",
+                                "main_text_jp": "国産米",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            }
+                        ],
+                        "has_sub_ingredients": true
+                    },
+                    {
+                        "id": "root-1",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "friture de poisson blanc",
+                        "main_text_jp": "白身魚フライ",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-2",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "spaghetti",
+                        "main_text_jp": "スパゲッティ",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-3",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "salade de pommes de terre",
+                        "main_text_jp": "ポテトサラダ",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-4",
+                        "status": "ambiguous",
+                        "is_ambiguous": true,
+                        "main_text_fr": "sauce tartare",
+                        "main_text_jp": "タルタルソース",
+                        "sub_ingredients": [
+                            {
+                                "id": "root-4-0",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "huile végétale",
+                                "main_text_jp": "植物油脂",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            },
+                            {
+                                "id": "root-4-1",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "pickles",
+                                "main_text_jp": "ピクルス",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            },
+                            {
+                                "id": "root-4-2",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "sucre",
+                                "main_text_jp": "砂糖",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            },
+                            {
+                                "id": "root-4-3",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "vinaigre de brasserie",
+                                "main_text_jp": "醸造酢",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            },
+                            {
+                                "id": "root-4-4",
+                                "status": "ambiguous",
+                                "is_ambiguous": true,
+                                "main_text_fr": "autre",
+                                "main_text_jp": "その他",
+                                "sub_ingredients": [],
+                                "ambiguous_reason": "Composition incomplète",
+                                "has_sub_ingredients": false
+                            }
+                        ],
+                        "ambiguous_reason": "Composition non détaillée",
+                        "has_sub_ingredients": true
+                    },
+                    {
+                        "id": "root-5",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "omelette japonaise",
+                        "main_text_jp": "玉子焼",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-6",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "kinpira de racine de lotus, bardane et carotte",
+                        "main_text_jp": "蓮根牛蒡人参金平",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-7",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "citron",
+                        "main_text_jp": "レモン",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-8",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "daikon mariné au vinaigre",
+                        "main_text_jp": "大根酢漬",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-9",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "laitue en feuilles",
+                        "main_text_jp": "リーフレタス",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-10",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "sésame noir",
+                        "main_text_jp": "黒ごま",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-11",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "persil en poudre",
+                        "main_text_jp": "粉パセリ",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-12",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "régulateur de pH",
+                        "main_text_jp": "PH調整剤",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-13",
+                        "status": "ambiguous",
+                        "is_ambiguous": true,
+                        "main_text_fr": "assaisonnement",
+                        "main_text_jp": "調味料",
+                        "sub_ingredients": [
+                            {
+                                "id": "root-13-0",
+                                "status": "ambiguous",
+                                "is_ambiguous": true,
+                                "main_text_fr": "acides aminés, etc.",
+                                "main_text_jp": "アミノ酸等",
+                                "sub_ingredients": [],
+                                "ambiguous_reason": "Composition non détaillée",
+                                "has_sub_ingredients": false
+                            }
+                        ],
+                        "ambiguous_reason": "Source non détaillée",
+                        "has_sub_ingredients": true
+                    },
+                    {
+                        "id": "root-14",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "glycine",
+                        "main_text_jp": "グリシン",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-15",
+                        "status": "ambiguous",
+                        "is_ambiguous": true,
+                        "main_text_fr": "amidon modifié",
+                        "main_text_jp": "加工デンプン",
+                        "sub_ingredients": [],
+                        "ambiguous_reason": "Type d'amidon non spécifié",
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-16",
+                        "status": "ambiguous",
+                        "is_ambiguous": true,
+                        "main_text_fr": "épaississant",
+                        "main_text_jp": "増粘剤",
+                        "sub_ingredients": [
+                            {
+                                "id": "root-16-0",
+                                "status": "ambiguous",
+                                "is_ambiguous": true,
+                                "main_text_fr": "polysaccharide épaississant",
+                                "main_text_jp": "増粘多糖類",
+                                "sub_ingredients": [],
+                                "ambiguous_reason": "Type de polysaccharide non spécifié",
+                                "has_sub_ingredients": false
+                            },
+                            {
+                                "id": "root-16-1",
+                                "status": "ambiguous",
+                                "is_ambiguous": true,
+                                "main_text_fr": "amidon modifié",
+                                "main_text_jp": "加工デンプン",
+                                "sub_ingredients": [],
+                                "ambiguous_reason": "Type d'amidon non spécifié",
+                                "has_sub_ingredients": false
+                            }
+                        ],
+                        "ambiguous_reason": "Type d'épaississant non spécifié",
+                        "has_sub_ingredients": true
+                    },
+                    {
+                        "id": "root-17",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "acétate de Na",
+                        "main_text_jp": "酢酸Na",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-18",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "acidifiant",
+                        "main_text_jp": "酸味料",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-19",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "colorant paprika",
+                        "main_text_jp": "パプリカ色素",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-20",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "colorant végétal",
+                        "main_text_jp": "野菜色素",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-21",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "antioxydant",
+                        "main_text_jp": "酸化防止剤",
+                        "sub_ingredients": [
+                            {
+                                "id": "root-21-0",
+                                "status": "ok",
+                                "is_ambiguous": false,
+                                "main_text_fr": "V.C",
+                                "main_text_jp": "V.C",
+                                "sub_ingredients": [],
+                                "has_sub_ingredients": false
+                            }
+                        ],
+                        "has_sub_ingredients": true
+                    },
+                    {
+                        "id": "root-22",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "colorant caramel",
+                        "main_text_jp": "カラメル色素",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-23",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "émulsifiant",
+                        "main_text_jp": "乳化剤",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-24",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "colorant curcuma",
+                        "main_text_jp": "ウコン色素",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-25",
+                        "status": "ok",
+                        "is_ambiguous": false,
+                        "main_text_fr": "extrait d'épice",
+                        "main_text_jp": "香辛料抽出物",
+                        "sub_ingredients": [],
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-26-0",
+                        "status": "contains_allergen",
+                        "is_ambiguous": false,
+                        "main_text_fr": "contient une partie de blé",
+                        "main_text_jp": "一部に小麦",
+                        "sub_ingredients": [],
+                        "ambiguous_reason": "Famille: Halal",
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-26-1",
+                        "status": "contains_allergen",
+                        "is_ambiguous": false,
+                        "main_text_fr": "œuf",
+                        "main_text_jp": "卵",
+                        "sub_ingredients": [],
+                        "ambiguous_reason": "Famille: Halal",
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-26-2",
+                        "status": "contains_allergen",
+                        "is_ambiguous": false,
+                        "main_text_fr": "sésame",
+                        "main_text_jp": "ごま",
+                        "sub_ingredients": [],
+                        "ambiguous_reason": "Famille: Halal",
+                        "has_sub_ingredients": false
+                    },
+                    {
+                        "id": "root-26-3",
+                        "status": "contains_allergen",
+                        "is_ambiguous": false,
+                        "main_text_fr": "contient du soja",
+                        "main_text_jp": "大豆を含む",
+                        "sub_ingredients": [],
+                        "ambiguous_reason": "Famille: Halal",
+                        "has_sub_ingredients": false
+                    }
+                ],
+                "leaves_processed": 40
+            },
+            "phase05": {
+                "certified_raw_text": "白飯(国産米)、白身魚フライ、スパゲッティ、ポテトサラダ、タルタルソース (\n植物油脂、ピクルス、砂糖、醸造酢、その他)、玉子\n焼、蓮根牛蒡人参金平、レモン、大根酢漬、リーフレ\nタス、黒ごま、粉パセリ / PH調整剤、調味料(アミ\nノ酸等)、グリシン、加工デンプン、増粘剤(増粘多\n糖類、加工デンプン)、酢酸Na、酸味料、パプリカ\n色素、野菜色素、酸化防止剤(V.C)、カラメル色素、\n乳化剤、ウコン色素、香辛料抽出物、(一部に小\n麦・卵・ごま・大豆を含む)"
+            },
+            "phase09": {
+                "was_triggered": false
+            },
+            "phase1_5": {
+                "samples": [
+                    {
+                        "raw": "白飯",
+                        "normalized_fr": "riz blanc"
+                    },
+                    {
+                        "raw": "国産米",
+                        "normalized_fr": "riz cultivé au Japon"
+                    },
+                    {
+                        "raw": "白身魚フライ",
+                        "normalized_fr": "friture de poisson blanc"
+                    },
+                    {
+                        "raw": "スパゲッティ",
+                        "normalized_fr": "spaghetti"
+                    },
+                    {
+                        "raw": "ポテトサラダ",
+                        "normalized_fr": "salade de pommes de terre"
+                    }
+                ],
+                "translated_count": 40
+            },
+            "phase1_7": {
+                "debug": [],
+                "allergens": [],
+                "allergen_count": 0
+            },
+            "allergen_context": {
+                "selected_ids": [
+                    "f1a00000-0000-0000-0000-000000000001",
+                    "63b2d40b-70f1-45c7-bb0a-566ee865d27c"
+                ],
+                "resolved_names": [
+                    "Noix de pécan",
+                    "Halal"
+                ]
+            },
+            "phase1_flattened": {
+                "count": 40,
+                "nodes": [
+                    "白飯",
+                    "国産米",
+                    "白身魚フライ",
+                    "スパゲッティ",
+                    "ポテトサラダ",
+                    "タルタルソース",
+                    "植物油脂",
+                    "ピクルス",
+                    "砂糖",
+                    "醸造酢",
+                    "その他",
+                    "玉子焼",
+                    "蓮根牛蒡人参金平",
+                    "レモン",
+                    "大根酢漬",
+                    "リーフレタス",
+                    "黒ごま",
+                    "粉パセリ",
+                    "PH調整剤",
+                    "調味料",
+                    "アミノ酸等",
+                    "グリシン",
+                    "加工デンプン",
+                    "増粘剤",
+                    "増粘多糖類",
+                    "加工デンプン",
+                    "酢酸Na",
+                    "酸味料",
+                    "パプリカ色素",
+                    "野菜色素",
+                    "酸化防止剤",
+                    "V.C",
+                    "カラメル色素",
+                    "乳化剤",
+                    "ウコン色素",
+                    "香辛料抽出物",
+                    "一部に小麦",
+                    "卵",
+                    "ごま",
+                    "大豆を含む"
+                ]
+            }
+        },
+        "ok_ingredients": [
+            {
+                "raw": "白飯",
+                "parsed": {
+                    "id": "root-0",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "riz blanc",
+                    "main_text_jp": "白飯",
+                    "sub_ingredients": [
+                        {
+                            "id": "root-0-0",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "riz cultivé au Japon",
+                            "main_text_jp": "国産米",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        }
+                    ],
+                    "has_sub_ingredients": true
+                },
+                "normalized": "riz blanc"
+            },
+            {
+                "raw": "白身魚フライ",
+                "parsed": {
+                    "id": "root-1",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "friture de poisson blanc",
+                    "main_text_jp": "白身魚フライ",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "friture de poisson blanc"
+            },
+            {
+                "raw": "スパゲッティ",
+                "parsed": {
+                    "id": "root-2",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "spaghetti",
+                    "main_text_jp": "スパゲッティ",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "spaghetti"
+            },
+            {
+                "raw": "ポテトサラダ",
+                "parsed": {
+                    "id": "root-3",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "salade de pommes de terre",
+                    "main_text_jp": "ポテトサラダ",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "salade de pommes de terre"
+            },
+            {
+                "raw": "玉子焼",
+                "parsed": {
+                    "id": "root-5",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "omelette japonaise",
+                    "main_text_jp": "玉子焼",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "omelette japonaise"
+            },
+            {
+                "raw": "蓮根牛蒡人参金平",
+                "parsed": {
+                    "id": "root-6",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "kinpira de racine de lotus, bardane et carotte",
+                    "main_text_jp": "蓮根牛蒡人参金平",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "kinpira de racine de lotus, bardane et carotte"
+            },
+            {
+                "raw": "レモン",
+                "parsed": {
+                    "id": "root-7",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "citron",
+                    "main_text_jp": "レモン",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "citron"
+            },
+            {
+                "raw": "大根酢漬",
+                "parsed": {
+                    "id": "root-8",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "daikon mariné au vinaigre",
+                    "main_text_jp": "大根酢漬",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "daikon mariné au vinaigre"
+            },
+            {
+                "raw": "リーフレタス",
+                "parsed": {
+                    "id": "root-9",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "laitue en feuilles",
+                    "main_text_jp": "リーフレタス",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "laitue en feuilles"
+            },
+            {
+                "raw": "黒ごま",
+                "parsed": {
+                    "id": "root-10",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "sésame noir",
+                    "main_text_jp": "黒ごま",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "sésame noir"
+            },
+            {
+                "raw": "粉パセリ",
+                "parsed": {
+                    "id": "root-11",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "persil en poudre",
+                    "main_text_jp": "粉パセリ",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "persil en poudre"
+            },
+            {
+                "raw": "PH調整剤",
+                "parsed": {
+                    "id": "root-12",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "régulateur de pH",
+                    "main_text_jp": "PH調整剤",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "régulateur de pH"
+            },
+            {
+                "raw": "グリシン",
+                "parsed": {
+                    "id": "root-14",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "glycine",
+                    "main_text_jp": "グリシン",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "glycine"
+            },
+            {
+                "raw": "酢酸Na",
+                "parsed": {
+                    "id": "root-17",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "acétate de Na",
+                    "main_text_jp": "酢酸Na",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "acétate de Na"
+            },
+            {
+                "raw": "酸味料",
+                "parsed": {
+                    "id": "root-18",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "acidifiant",
+                    "main_text_jp": "酸味料",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "acidifiant"
+            },
+            {
+                "raw": "パプリカ色素",
+                "parsed": {
+                    "id": "root-19",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "colorant paprika",
+                    "main_text_jp": "パプリカ色素",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "colorant paprika"
+            },
+            {
+                "raw": "野菜色素",
+                "parsed": {
+                    "id": "root-20",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "colorant végétal",
+                    "main_text_jp": "野菜色素",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "colorant végétal"
+            },
+            {
+                "raw": "酸化防止剤",
+                "parsed": {
+                    "id": "root-21",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "antioxydant",
+                    "main_text_jp": "酸化防止剤",
+                    "sub_ingredients": [
+                        {
+                            "id": "root-21-0",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "V.C",
+                            "main_text_jp": "V.C",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        }
+                    ],
+                    "has_sub_ingredients": true
+                },
+                "normalized": "antioxydant"
+            },
+            {
+                "raw": "カラメル色素",
+                "parsed": {
+                    "id": "root-22",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "colorant caramel",
+                    "main_text_jp": "カラメル色素",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "colorant caramel"
+            },
+            {
+                "raw": "乳化剤",
+                "parsed": {
+                    "id": "root-23",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "émulsifiant",
+                    "main_text_jp": "乳化剤",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "émulsifiant"
+            },
+            {
+                "raw": "ウコン色素",
+                "parsed": {
+                    "id": "root-24",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "colorant curcuma",
+                    "main_text_jp": "ウコン色素",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "colorant curcuma"
+            },
+            {
+                "raw": "香辛料抽出物",
+                "parsed": {
+                    "id": "root-25",
+                    "status": "ok",
+                    "is_ambiguous": false,
+                    "main_text_fr": "extrait d'épice",
+                    "main_text_jp": "香辛料抽出物",
+                    "sub_ingredients": [],
+                    "has_sub_ingredients": false
+                },
+                "normalized": "extrait d'épice"
+            }
+        ],
+        "product_status": "contains_allergen",
+        "allergens_ingredients": [
+            {
+                "raw": "一部に小麦",
+                "parsed": {
+                    "id": "root-26-0",
+                    "status": "contains_allergen",
+                    "is_ambiguous": false,
+                    "main_text_fr": "contient une partie de blé",
+                    "main_text_jp": "一部に小麦",
+                    "sub_ingredients": [],
+                    "ambiguous_reason": "Famille: Halal",
+                    "has_sub_ingredients": false
+                },
+                "reason": "Famille: Halal",
+                "normalized": "contient une partie de blé"
+            },
+            {
+                "raw": "卵",
+                "parsed": {
+                    "id": "root-26-1",
+                    "status": "contains_allergen",
+                    "is_ambiguous": false,
+                    "main_text_fr": "œuf",
+                    "main_text_jp": "卵",
+                    "sub_ingredients": [],
+                    "ambiguous_reason": "Famille: Halal",
+                    "has_sub_ingredients": false
+                },
+                "reason": "Famille: Halal",
+                "normalized": "œuf"
+            },
+            {
+                "raw": "ごま",
+                "parsed": {
+                    "id": "root-26-2",
+                    "status": "contains_allergen",
+                    "is_ambiguous": false,
+                    "main_text_fr": "sésame",
+                    "main_text_jp": "ごま",
+                    "sub_ingredients": [],
+                    "ambiguous_reason": "Famille: Halal",
+                    "has_sub_ingredients": false
+                },
+                "reason": "Famille: Halal",
+                "normalized": "sésame"
+            },
+            {
+                "raw": "大豆を含む",
+                "parsed": {
+                    "id": "root-26-3",
+                    "status": "contains_allergen",
+                    "is_ambiguous": false,
+                    "main_text_fr": "contient du soja",
+                    "main_text_jp": "大豆を含む",
+                    "sub_ingredients": [],
+                    "ambiguous_reason": "Famille: Halal",
+                    "has_sub_ingredients": false
+                },
+                "reason": "Famille: Halal",
+                "normalized": "contient du soja"
+            }
+        ],
+        "ambiguous_ingredients": [
+            {
+                "raw": "タルタルソース",
+                "parsed": {
+                    "id": "root-4",
+                    "status": "ambiguous",
+                    "is_ambiguous": true,
+                    "main_text_fr": "sauce tartare",
+                    "main_text_jp": "タルタルソース",
+                    "sub_ingredients": [
+                        {
+                            "id": "root-4-0",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "huile végétale",
+                            "main_text_jp": "植物油脂",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        },
+                        {
+                            "id": "root-4-1",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "pickles",
+                            "main_text_jp": "ピクルス",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        },
+                        {
+                            "id": "root-4-2",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "sucre",
+                            "main_text_jp": "砂糖",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        },
+                        {
+                            "id": "root-4-3",
+                            "status": "ok",
+                            "is_ambiguous": false,
+                            "main_text_fr": "vinaigre de brasserie",
+                            "main_text_jp": "醸造酢",
+                            "sub_ingredients": [],
+                            "has_sub_ingredients": false
+                        },
+                        {
+                            "id": "root-4-4",
+                            "status": "ambiguous",
+                            "is_ambiguous": true,
+                            "main_text_fr": "autre",
+                            "main_text_jp": "その他",
+                            "sub_ingredients": [],
+                            "ambiguous_reason": "Composition incomplète",
+                            "has_sub_ingredients": false
+                        }
+                    ],
+                    "ambiguous_reason": "Composition non détaillée",
+                    "has_sub_ingredients": true
+                },
+                "reason": "Composition non détaillée",
+                "normalized": "sauce tartare"
+            },
+            {
+                "raw": "調味料",
+                "parsed": {
+                    "id": "root-13",
+                    "status": "ambiguous",
+                    "is_ambiguous": true,
+                    "main_text_fr": "assaisonnement",
+                    "main_text_jp": "調味料",
+                    "sub_ingredients": [
+                        {
+                            "id": "root-13-0",
+                            "status": "ambiguous",
+                            "is_ambiguous": true,
+                            "main_text_fr": "acides aminés, etc.",
+                            "main_text_jp": "アミノ酸等",
+                            "sub_ingredients": [],
+                            "ambiguous_reason": "Composition non détaillée",
+                            "has_sub_ingredients": false
+                        }
+                    ],
+                    "ambiguous_reason": "Source non détaillée",
+                    "has_sub_ingredients": true
+                },
+                "reason": "Source non détaillée",
+                "normalized": "assaisonnement"
+            },
+            {
+                "raw": "加工デンプン",
+                "parsed": {
+                    "id": "root-15",
+                    "status": "ambiguous",
+                    "is_ambiguous": true,
+                    "main_text_fr": "amidon modifié",
+                    "main_text_jp": "加工デンプン",
+                    "sub_ingredients": [],
+                    "ambiguous_reason": "Type d'amidon non spécifié",
+                    "has_sub_ingredients": false
+                },
+                "reason": "Type d'amidon non spécifié",
+                "normalized": "amidon modifié"
+            },
+            {
+                "raw": "増粘剤",
+                "parsed": {
+                    "id": "root-16",
+                    "status": "ambiguous",
+                    "is_ambiguous": true,
+                    "main_text_fr": "épaississant",
+                    "main_text_jp": "増粘剤",
+                    "sub_ingredients": [
+                        {
+                            "id": "root-16-0",
+                            "status": "ambiguous",
+                            "is_ambiguous": true,
+                            "main_text_fr": "polysaccharide épaississant",
+                            "main_text_jp": "増粘多糖類",
+                            "sub_ingredients": [],
+                            "ambiguous_reason": "Type de polysaccharide non spécifié",
+                            "has_sub_ingredients": false
+                        },
+                        {
+                            "id": "root-16-1",
+                            "status": "ambiguous",
+                            "is_ambiguous": true,
+                            "main_text_fr": "amidon modifié",
+                            "main_text_jp": "加工デンプン",
+                            "sub_ingredients": [],
+                            "ambiguous_reason": "Type d'amidon non spécifié",
+                            "has_sub_ingredients": false
+                        }
+                    ],
+                    "ambiguous_reason": "Type d'épaississant non spécifié",
+                    "has_sub_ingredients": true
+                },
+                "reason": "Type d'épaississant non spécifié",
+                "normalized": "épaississant"
+            }
+        ]
+    },
+    "credit_consumed_type": "free",
+    "pipeline_version": "v3",
+    "selected_allergen_ids": [
+        "f1a00000-0000-0000-0000-000000000001",
+        "63b2d40b-70f1-45c7-bb0a-566ee865d27c"
+    ],
+    "ocr_request_count": 1,
+    "gemini_request_count": 4,
+    "phase09_executed": false
+}

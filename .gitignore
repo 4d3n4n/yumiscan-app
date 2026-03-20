@@ -1,0 +1,119 @@
+# =========================
+# Dépendances
+# =========================
+node_modules/
+
+# =========================
+# Nuxt
+# =========================
+.nuxt/
+.output/
+dist/
+.nitro/
+.cache/
+*.tsbuildinfo
+
+# =========================
+# Variables d'environnement
+# =========================
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.test
+.env.recette
+.env.main
+supabase/functions/.env
+*.env.backup
+
+# =========================
+# Build & logs
+# =========================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# PWA / Service Worker
+# =========================
+dev-dist/
+sw.js
+sw.js.map
+workbox-*.js
+workbox-*.js.map
+**/sw-*.js
+**/workbox-*.js.map
+
+# =========================
+# Supabase (local)
+# =========================
+supabase/.branches/
+supabase/.temp/
+.branches/
+
+# =========================
+# IDE & éditeurs
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# =========================
+# Système
+# =========================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# =========================
+# Tests & couverture
+# =========================
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# =========================
+# Fichiers générés / temporaires
+# =========================
+*.local
+*.tmp
+*.temp
+.turbo/
+.parcel-cache/
+.cache/
+knip-report*.txt
+result.json
+*.dump
+*.sql.backup
+
+# Emojis (public)
+public/images/emojis/.sdp
+public/images/emojis/*.sdp
+
+# =========================
+# Secrets & clés
+# =========================
+*.pem
+*.key
+!public/**/*.key
+secrets/
+.secrets
+
+# =========================
+# Optionnel (décommenter si besoin)
+# =========================
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

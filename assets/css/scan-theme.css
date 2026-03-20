@@ -1,0 +1,128 @@
+/* ═══════════════════════════════════════════════════════
+   SCAN RESULT THEME — Bold Design System
+   ═══════════════════════════════════════════════════════ */
+
+:root {
+  --scan-status-ok: #059669;
+  --scan-status-ok-bg: #ecfdf5;
+  --scan-status-ok-border: #a7f3d0;
+  --scan-status-ok-glow: rgba(5, 150, 105, 0.14);
+  --scan-status-not-ok: #ef4444;
+  --scan-status-not-ok-bg: #fef2f2;
+  --scan-status-not-ok-border: #fecaca;
+  --scan-status-not-ok-glow: rgba(239, 68, 68, 0.2);
+  --scan-status-ambiguous: #d97706;
+  --scan-status-ambiguous-bg: #fffbeb;
+  --scan-status-ambiguous-border: #fde68a;
+  --scan-status-ambiguous-glow: rgba(217, 119, 6, 0.18);
+  --scan-status-allergen: #9333ea;
+  --scan-status-allergen-bg: #faf5ff;
+  --scan-status-allergen-border: #e9d5ff;
+  --scan-status-allergen-glow: rgba(147, 51, 234, 0.2);
+  --scan-surface: #ffffff;
+  --scan-surface-dim: #f9fafb;
+  --scan-font-heading: 'Space Grotesk', sans-serif;
+  --scan-font-body: 'Manrope', sans-serif;
+}
+
+.dark {
+  --scan-status-ok-bg: rgba(5, 150, 105, 0.12);
+  --scan-status-ok-border: rgba(5, 150, 105, 0.3);
+  --scan-status-not-ok-bg: rgba(239, 68, 68, 0.12);
+  --scan-status-not-ok-border: rgba(239, 68, 68, 0.3);
+  --scan-status-ambiguous-bg: rgba(217, 119, 6, 0.12);
+  --scan-status-ambiguous-border: rgba(217, 119, 6, 0.3);
+  --scan-status-allergen-bg: rgba(147, 51, 234, 0.12);
+  --scan-status-allergen-border: rgba(147, 51, 234, 0.3);
+  --scan-surface: hsl(245 18% 10%);
+  --scan-surface-dim: hsl(245 15% 8%);
+}
+
+.scan-card {
+  background-color: var(--scan-surface);
+  border-radius: var(--bold-radius-xl, 22px) var(--bold-radius-xl, 22px) 0 0;
+  box-shadow: 0 -4px 0 0 var(--bold-color, #1a1a2e);
+  border-top: 2.5px solid var(--bold-border-color, #1a1a2e);
+}
+
+.glass-card {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 100%;
+  background: hsl(var(--card));
+  border: 2px solid var(--bold-border-color);
+  border-radius: var(--bold-radius, 14px);
+  padding: 12px 14px;
+  box-shadow: var(--bold-shadow-sm);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.glass-card:hover {
+  transform: translate(1.5px, 1.5px);
+  box-shadow: 1.5px 1.5px 0 0 var(--bold-color);
+}
+
+.glass-card--sub {
+  padding: 8px 12px;
+  border-radius: var(--bold-radius-sm, 10px);
+  background: hsl(var(--muted) / 0.3);
+  border: 1.5px solid var(--bold-border-color);
+}
+
+.glass-glow--ok { box-shadow: 3px 3px 0 0 var(--scan-status-ok); }
+.glass-glow--ambiguous { box-shadow: 3px 3px 0 0 var(--scan-status-ambiguous); }
+.glass-glow--not-ok { box-shadow: 3px 3px 0 0 var(--scan-status-not-ok); }
+.glass-glow--allergen { box-shadow: 3px 3px 0 0 var(--scan-status-allergen); }
+
+.status-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.status-dot--ok { background: var(--scan-status-ok); box-shadow: 0 0 6px rgba(5, 150, 105, 0.5); }
+.status-dot--ambiguous { background: var(--scan-status-ambiguous); box-shadow: 0 0 6px rgba(217, 119, 6, 0.5); }
+.status-dot--not-ok { background: var(--scan-status-not-ok); box-shadow: 0 0 6px rgba(239, 68, 68, 0.5); }
+.status-dot--allergen { background: var(--scan-status-allergen); box-shadow: 0 0 6px rgba(147, 51, 234, 0.5); }
+
+.tree-children { padding-left: 22px; margin-top: 8px; }
+.tree-node { position: relative; padding-bottom: 8px; }
+.tree-node::before {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 0;
+  height: 18px;
+  width: 18px;
+  border-left: 2px solid hsl(var(--border));
+  border-bottom: 2px solid hsl(var(--border));
+  border-bottom-left-radius: 8px;
+}
+.tree-node:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 18px;
+  bottom: 0;
+  width: 0;
+  border-left: 2px solid hsl(var(--border));
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid hsl(var(--border));
+}
+
+.section-header--warn { color: var(--scan-status-not-ok); }
+.section-header--safe { color: var(--scan-status-ok); }
+.section-header--allergen { color: var(--scan-status-allergen); }
+
+.scan-gradient-text {
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, #ec4899 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

@@ -1,0 +1,87 @@
+{
+    "onboarding": {
+        "skip": "Passer",
+        "btn_prev": "Retour",
+        "btn_next": "Suivant",
+        "btn_start": "Commencer",
+        "slides": {
+            "slide_1": {
+                "title": "Bienvenue dans YumiScan",
+                "desc": "Scannez les étiquettes alimentaires japonaises et obtenez un verdict clair selon vos allergènes."
+            },
+            "slide_2": {
+                "title": "Prenez une photo, l'IA analyse",
+                "desc": "Cadrez la liste d'ingrédients, lancez le scan, puis laissez YumiScan lire, traduire et classer les ingrédients pour vous.",
+                "pill": "Scan IA"
+            },
+            "slide_3": {
+                "title": "Recevez un résultat simple à comprendre",
+                "desc": "Les allergènes détectés, les ingrédients douteux et les éléments sûrs sont regroupés pour décider vite et sans ambiguïté.",
+                "pill": "Verdict clair"
+            },
+            "scan_frame": {
+                "title": "Cadrez surtout la liste d'ingrédients",
+                "desc": "Pas besoin de photographier tout l'emballage. Approchez le téléphone jusqu'à lire toute la liste, avec le texte bien net.",
+                "image_alt": "Cadrage correct de la liste d'ingrédients sur une étiquette alimentaire",
+                "callout_top": "Liste complète visible",
+                "callout_bottom": "Le texte doit rester net",
+                "tip_1": "Gardez la liste entière dans le cadre.",
+                "tip_2": "Évitez de couper le début ou la fin des ingrédients.",
+                "tip_3": "Remplissez l'écran avec le texte utile, pas avec le packaging."
+            },
+            "scan_quality": {
+                "title": "Évitez les reflets et stabilisez la photo",
+                "desc": "Posez le produit ou bloquez votre main une seconde. Une lumière propre et une photo stable donnent des résultats plus rapides et plus précis.",
+                "image_alt": "Liste d'ingrédients nette avant le scan",
+                "callout_top": "Lumière uniforme, sans reflet",
+                "callout_bottom": "Une photo stable aide l'analyse",
+                "tip_1": "Ne mettez ni doigt ni ombre sur le texte.",
+                "tip_2": "Évitez les surfaces brillantes ou inclinez légèrement le produit.",
+                "tip_3": "Attendez une image nette avant de lancer le scan."
+            },
+            "assistant": {
+                "title": "L'Assistant IA vous aide en magasin",
+                "desc": "Quand un ingrédient reste ambigu, YumiScan explique le doute et prépare des phrases prêtes à lire en japonais, avec romaji si vous préférez la prononciation.",
+                "preview_title": "Assistant IA",
+                "preview_summary": "Comprendre le doute et préparer une question utile en magasin",
+                "user_label": "Ma langue",
+                "user_text": "Pouvez-vous vérifier si ce produit contient cet allergène ou des traces ?",
+                "japanese_label": "Japonais",
+                "japanese_text": "この商品にこのアレルゲン、または微量混入があるか確認していただけますか。",
+                "romaji_label": "Romaji",
+                "romaji_text": "Kono shohin ni kono arerugen, matawa biryo konnyu ga aru ka kakunin shite itadakemasu ka."
+            },
+            "slide_4": {
+                "title": "Ajoutez {mobile} à votre écran d'accueil",
+                "mobile_label": "YumiScan",
+                "desc": "Installez l'application comme une vraie app pour la retrouver plus vite lors de vos achats ou en voyage.",
+                "ios": {
+                    "step_1": "Touchez",
+                    "step_1_strong": "Partager",
+                    "step_1_end": "dans Safari",
+                    "step_2": "Puis choisissez",
+                    "step_2_strong": "Sur l'écran d'accueil"
+                },
+                "ios_other": {
+                    "warning": "Pour installer l'app sur iPhone, ouvrez d'abord cette page dans {safari}.",
+                    "safari_label": "Safari",
+                    "step_1": "Ouvrez ensuite le menu",
+                    "step_1_strong": "Partager",
+                    "step_2": "Puis sélectionnez",
+                    "step_2_strong": "Sur l'écran d'accueil"
+                },
+                "android": {
+                    "step_1": "Ouvrez le menu",
+                    "step_1_end": "dans Chrome",
+                    "step_2": "Puis touchez",
+                    "step_2_strong": "Installer l'application"
+                },
+                "desktop": {
+                    "step_1": "Cliquez sur",
+                    "step_1_strong": "Installer",
+                    "step_1_end": "dans la barre d'adresse"
+                }
+            }
+        }
+    }
+}

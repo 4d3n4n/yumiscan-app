@@ -1,0 +1,11 @@
+-- Legacy placeholder migration kept to align local migration history with the
+-- remote Supabase project.
+--
+-- Context:
+-- - The remote database history contains version `20250226100000`.
+-- - This file is not present in the current repository anymore.
+-- - The repository now uses a consolidated schema migration
+--   (`20250226000000_schema.sql`), so this placeholder must stay a no-op.
+--
+-- Do not add SQL here unless you have first audited the remote database state
+-- and confirmed that the original migration was never applied.

@@ -1,0 +1,11 @@
+* @4d3n4n
+
+/supabase/functions/ @4d3n4n
+/supabase/migrations/ @4d3n4n
+/components/account/ @4d3n4n
+/pages/app/account.vue @4d3n4n
+/composables/useAuth.ts @4d3n4n
+/composables/useScanImageSessionCache.ts @4d3n4n
+/utils/security-headers.ts @4d3n4n
+/docs/security/ @4d3n4n
+/docs/releases/ @4d3n4n

@@ -1,0 +1,123 @@
+# YumiScan — Documentation complète pour LLMs
+
+> Application de détection d'allergènes alimentaires par intelligence artificielle, spécialisée dans les produits japonais.
+
+## Présentation détaillée
+
+YumiScan est une application web progressive (PWA) française qui résout un problème concret : identifier rapidement les allergènes dans les produits alimentaires, en particulier ceux avec des étiquettes en japonais. L'utilisateur prend une photo de la liste d'ingrédients ou importe une image, et l'IA analyse, extrait et classifie chaque ingrédient en fonction du profil allergène personnalisé de l'utilisateur.
+
+### Problème résolu
+
+- Les personnes allergiques doivent vérifier chaque produit alimentaire avant consommation
+- Les étiquettes japonaises utilisent des kanjis complexes difficiles à lire pour les non-natifs
+- Les expatriés et touristes au Japon risquent des réactions allergiques par incompréhension des étiquettes
+- Les régimes spéciaux (halal, vegan, sans gluten) nécessitent une vérification minutieuse des ingrédients
+
+### Public cible
+
+1. **Personnes allergiques** : Toute personne souffrant d'allergies alimentaires (gluten, soja, œufs, crustacés, arachides, fruits à coque, sésame, lait, poisson)
+2. **Expatriés au Japon** : Francophones vivant au Japon qui ont du mal à lire les étiquettes en kanji
+3. **Touristes** : Voyageurs au Japon souhaitant acheter des produits alimentaires en toute sécurité
+4. **Parents** : Parents d'enfants allergiques vérifiant les ingrédients des produits
+5. **Régimes spéciaux** : Personnes suivant un régime halal, vegan, végétarien ou autre restriction alimentaire
+
+## Fonctionnalités détaillées
+
+### Scan IA
+- Prise de photo directe via la caméra du smartphone
+- Import d'image depuis la galerie ou le gestionnaire de fichiers
+- Support des formats JPEG, PNG, HEIC (conversion automatique)
+- Prévisualisation de l'image avant analyse
+- Pipeline d'analyse multi-étapes : OCR → extraction d'ingrédients → classification allergènes
+
+### Profil allergènes
+- Sélection des allergènes majeurs parmi une liste prédéfinie
+- Ajout de critères personnalisés (halal, vegan, sans lactose, etc.)
+- Sauvegarde du profil pour analyses futures
+- Modification à tout moment depuis la page compte
+
+### Résultats d'analyse
+- Liste complète des ingrédients détectés
+- Identification visuelle des allergènes détectés (rouge/danger)
+- Ingrédients sûrs marqués en vert
+- Ingrédients incertains marqués en orange
+- Historique des scans consultable depuis le tableau de bord
+
+### Application PWA
+- Installation sur l'écran d'accueil (iOS et Android)
+- Interface responsive optimisée mobile
+- Fonctionne comme une application native
+- Pas de téléchargement depuis un store nécessaire
+
+## Informations techniques
+
+- **URL** : https://yumiscan.com
+- **Type** : Application web progressive (PWA)
+- **Langue** : Français
+- **Frontend** : Nuxt 3 (Vue 3), Tailwind CSS, TypeScript
+- **Backend** : Supabase (PostgreSQL, Auth, Storage, Edge Functions)
+- **IA** : Google Gemini API (vision + NLP)
+- **Paiement** : Stripe (certifié PCI-DSS)
+- **Hébergement** : Vercel / Supabase Cloud
+
+## Tarification
+
+| Offre | Prix | Crédits |
+|-------|------|---------|
+| Inscription | Gratuit | 3 scans |
+| Pack Starter | ~2€ | 10 scans |
+| Pack Pro | ~5€ | 30 scans |
+| Pack Illimité | ~10€ | 100 scans |
+
+- Aucun abonnement requis
+- Les crédits n'expirent jamais
+- Paiement sécurisé via Stripe
+
+## Avantages concurrentiels
+
+1. **Spécialisation japonaise** : Seule application optimisée pour les kanjis alimentaires japonais
+2. **IA de pointe** : Pipeline OCR + classification multi-étapes pour une haute précision
+3. **Sans abonnement** : Modèle pay-as-you-go avec crédits permanents
+4. **PWA native** : Pas besoin de store, installation directe
+5. **Profil personnalisable** : Adaptation aux allergènes et régimes spécifiques de chaque utilisateur
+6. **Interface française** : Pensée pour les francophones
+
+## FAQ complète
+
+### Comment fonctionne la détection d'allergènes par IA ?
+YumiScan utilise un pipeline OCR + intelligence artificielle multi-étapes : l'image est analysée, le texte est extrait et chaque ingrédient est classifié selon vos critères d'allergènes personnalisés.
+
+### Quels allergènes YumiScan peut-il détecter ?
+Tous les allergènes majeurs : gluten, soja, œufs, crustacés, arachides, fruits à coque, sésame, lait, poisson et bien d'autres. Vous pouvez aussi ajouter des critères personnalisés comme halal ou vegan.
+
+### Le scan fonctionne-t-il avec les étiquettes japonaises ?
+Oui, c'est la spécialité de YumiScan. L'IA est optimisée pour lire les kanjis alimentaires complexes et traduire automatiquement les listes d'ingrédients japonais en français.
+
+### Combien de scans gratuits sont inclus ?
+À la création du compte, 3 scans gratuits sont disponibles pour tester l'expérience complète sans engagement.
+
+### Les crédits de scan expirent-ils ?
+Non. Les crédits sont valables à vie, sans limite de temps. Utilisez-les à votre rythme.
+
+### Quels types de produits alimentaires puis-je scanner ?
+Tous les produits emballés avec une liste d'ingrédients lisible : snacks, plats préparés, sauces, boissons, confiseries, produits laitiers, etc. L'app est particulièrement efficace sur les produits japonais.
+
+### La détection est-elle fiable à 100 % ?
+L'IA atteint un très haut niveau de précision, mais il est toujours recommandé de vérifier l'emballage en cas de doute, notamment pour les allergies sévères. YumiScan est une aide à la décision, pas un diagnostic médical.
+
+### Puis-je utiliser YumiScan hors connexion ?
+L'analyse nécessite une connexion internet car elle repose sur l'IA cloud. Cependant, l'historique de scans est consultable à tout moment.
+
+### Comment sont protégées mes données personnelles ?
+Les données sont hébergées de manière sécurisée. Les images de scan sont stockées dans un espace privé accessible uniquement par l'utilisateur. Le paiement est géré par Stripe, certifié PCI-DSS.
+
+### YumiScan est-il disponible sur mobile ?
+Oui. YumiScan est une application web progressive (PWA) accessible depuis n'importe quel navigateur mobile. Elle peut être installée sur l'écran d'accueil comme une app native, sans passer par un store.
+
+## Liens
+
+- Site principal : https://yumiscan.com
+- À propos : https://yumiscan.com/a-propos
+- CGV : https://yumiscan.com/cgv
+- Mentions légales : https://yumiscan.com/mentions-legales
+- Politique de confidentialité : https://yumiscan.com/confidentialite

@@ -1,0 +1,50 @@
+{
+  "pricing_page": {
+    "seo": {
+      "title": "YumiScan — Tarifs et crédits pour scanner les étiquettes japonaises",
+      "description": "Consultez les offres YumiScan, les crédits disponibles, les fonctionnalités du Scan IA et de l'Assistant IA, ainsi que les moyens de paiement acceptés."
+    },
+    "hero": {
+      "eyebrow": "Tarifs YumiScan",
+      "title": "Une page claire pour comprendre les crédits et acheter sereinement.",
+      "description": "Retrouvez toutes les offres, le détail du Scan IA, l'Assistant IA, les moyens de paiement acceptés et les réponses utiles avant achat.",
+      "pill_1": "Crédits à vie",
+      "pill_2": "Paiement sécurisé",
+      "pill_3": "Sans abonnement"
+    },
+    "overview": {
+      "title": "Ce que vous débloquez avec vos crédits",
+      "subtitle": "Le pricing reste simple: vous achetez des crédits, puis vous les utilisez à votre rythme selon vos besoins.",
+      "cards": {
+        "scan_ai": {
+          "title": "Scan IA",
+          "desc": "Photographiez une étiquette japonaise et obtenez une lecture claire des ingrédients selon vos critères."
+        },
+        "assistant_ai": {
+          "title": "Assistant IA",
+          "desc": "Prépare des phrases utiles, résume le risque et vous aide à demander une alternative plus sûre."
+        },
+        "history": {
+          "title": "Historique des scans",
+          "desc": "Retrouvez vos résultats, vos captures et vos achats sans repartir de zéro."
+        },
+        "no_subscription": {
+          "title": "Pas d'abonnement",
+          "desc": "Paiement ponctuel uniquement. Vos crédits restent disponibles sans échéance."
+        }
+      }
+    },
+    "payments": {
+      "title": "Paiement et confiance",
+      "description": "Le checkout affiche uniquement les moyens de paiement réellement disponibles selon votre appareil, votre pays et leur activation dans Stripe.",
+      "methods": {
+        "cards": "Cartes bancaires",
+        "apple_pay": "Apple Pay",
+        "google_pay": "Google Pay",
+        "klarna": "Klarna",
+        "revolut_pay": "Revolut Pay"
+      },
+      "note": "Le paiement est sécurisé et traité par Stripe."
+    }
+  }
+}

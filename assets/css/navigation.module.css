@@ -1,0 +1,190 @@
+/* ═══════════════════════════════════════════════════════
+   NAVIGATION — Bold Design System
+   ═══════════════════════════════════════════════════════ */
+
+/* Mobile: barre en bas (norme app mobile) ; Desktop: barre en haut */
+.headerContainer {
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1.5rem;
+  left: 0;
+  right: 0;
+  padding-bottom: max(env(safe-area-inset-bottom), 8px);
+  pointer-events: none;
+  isolation: isolate;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.mobileBackdrop {
+  position: absolute;
+  left: 50%;
+  bottom: -4rem;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 7.5rem;
+  background: linear-gradient(180deg, hsl(0 0% 100% / 0) 0%, hsl(0 0% 100% / 0.3) 38%, hsla(0, 0%, 100%, 0.645) 100%);
+  border: 1px solid hsl(0 0% 100% / 0.35);
+  box-shadow: 0 18px 40px hsl(var(--foreground) / 0.08);
+  backdrop-filter: blur(16px) saturate(1.02);
+  -webkit-backdrop-filter: blur(16px) saturate(1.02);
+  mask-image: linear-gradient(180deg, transparent 0%, black 52%, black 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, black 52%, black 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+@media (min-width: 768px) {
+  .headerContainer {
+    top: 16px;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    padding-bottom: 0;
+  }
+
+  .mobileBackdrop {
+    display: none;
+  }
+}
+
+:global(.dark) .mobileBackdrop {
+  background: linear-gradient(180deg, hsl(245 18% 10% / 0) 0%, hsl(245 18% 10% / 0.42) 38%, hsl(245 18% 10% / 0.88) 100%);
+  border-color: hsl(0 0% 100% / 0.06);
+  box-shadow: 0 18px 42px hsl(0 0% 0% / 0.28);
+}
+
+.headerContent {
+  width: 95%;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: auto;
+  position: relative;
+  z-index: 1;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  transition: all 250ms ease;
+}
+
+.section2Container {
+  padding: 0.5rem;
+  background: hsl(var(--card) / 0.5);
+  border: 2.5px solid var(--bold-border-color);
+  border-radius: var(--bold-radius-lg, 18px);
+  box-shadow: var(--bold-shadow, 4px 4px 0 0 var(--bold-color));
+  transition: all 250ms ease;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform, backdrop-filter;
+}
+
+.section2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 13px;
+  padding: 0.2rem 0.35rem 0.2rem 0.25rem;
+}
+
+.circularButton {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--bold-radius-sm, 10px);
+  background: transparent;
+  border: 2px solid transparent;
+  transition: all 150ms ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Hover/active uniquement sur appareils avec souris (évite le "sticky" hover sur mobile) */
+@media (hover: hover) {
+  .circularButton:hover {
+    background: hsl(var(--card));
+    color: hsl(var(--foreground));
+    border-color: var(--bold-border-color);
+    box-shadow: var(--bold-shadow-xs, 2px 2px 0 0 var(--bold-color));
+    transform: translate(-1px, -1px);
+  }
+
+  .circularButton:active {
+    transform: translate(1px, 1px);
+    box-shadow: none;
+  }
+}
+
+.circularButtonActive {
+  color: hsl(var(--primary));
+}
+
+.iconPill {
+  position: absolute;
+  inset: 0;
+  background: hsl(var(--card));
+  border-radius: var(--bold-radius-sm, 10px);
+  border: 2px solid var(--bold-border-color);
+  box-shadow: var(--bold-shadow-xs, 2px 2px 0 0 var(--bold-color));
+  z-index: 0;
+}
+
+.circularButtonIcon {
+  position: relative;
+  z-index: 10;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+/* ── Dark mode toggle ── */
+.themeToggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 8px;
+  background: hsl(var(--muted) / 0.6);
+  border: 2px solid var(--bold-border-color);
+  cursor: pointer;
+  transition: all 150ms ease;
+  color: hsl(var(--muted-foreground));
+  margin-left: 0.25rem;
+}
+@media (hover: hover) {
+  .themeToggle:hover {
+    background: hsl(var(--card));
+    color: hsl(var(--primary));
+    box-shadow: var(--bold-shadow-xs, 2px 2px 0 0 var(--bold-color));
+    transform: translate(-1px, -1px);
+  }
+  .themeToggle:active {
+    transform: translate(1px, 1px);
+    box-shadow: none;
+  }
+}
+.themeToggleIcon {
+  height: 0.875rem;
+  width: 0.875rem;
+}

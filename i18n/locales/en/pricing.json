@@ -1,0 +1,50 @@
+{
+  "pricing_page": {
+    "seo": {
+      "title": "YumiScan — Pricing and credits for scanning Japanese labels",
+      "description": "View YumiScan offers, credit packs, Scan AI and AI Assistant features, plus the payment methods accepted at checkout."
+    },
+    "hero": {
+      "eyebrow": "YumiScan pricing",
+      "title": "A clearer page to understand credits and buy with confidence.",
+      "description": "Find all plans, what Scan AI and the AI Assistant unlock, the accepted payment methods, and the key answers before purchase.",
+      "pill_1": "Credits for life",
+      "pill_2": "Secure checkout",
+      "pill_3": "No subscription"
+    },
+    "overview": {
+      "title": "What your credits unlock",
+      "subtitle": "Pricing stays simple: buy credits once, then use them at your own pace whenever you need them.",
+      "cards": {
+        "scan_ai": {
+          "title": "Scan AI",
+          "desc": "Photograph a Japanese label and get a clear ingredient reading based on your active criteria."
+        },
+        "assistant_ai": {
+          "title": "AI Assistant",
+          "desc": "Prepares useful phrases, summarizes the risk, and helps you ask for a safer alternative."
+        },
+        "history": {
+          "title": "Scan history",
+          "desc": "Find your results, captures, and purchases again without starting from scratch."
+        },
+        "no_subscription": {
+          "title": "No subscription",
+          "desc": "One-time payment only. Your credits stay available with no expiration."
+        }
+      }
+    },
+    "payments": {
+      "title": "Payment and trust",
+      "description": "Checkout only shows payment methods that are actually available for your device, country, and Stripe configuration.",
+      "methods": {
+        "cards": "Credit and debit cards",
+        "apple_pay": "Apple Pay",
+        "google_pay": "Google Pay",
+        "klarna": "Klarna",
+        "revolut_pay": "Revolut Pay"
+      },
+      "note": "Payment is secure and processed by Stripe."
+    }
+  }
+}

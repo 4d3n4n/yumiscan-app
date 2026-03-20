@@ -1,0 +1,147 @@
+{
+    "account": {
+        "dashboard": {
+            "title": "Historique des scans — YumiScan",
+            "meta_title": "Historique des scans — YumiScan",
+            "lbl_restricted_access": "Accès restreint",
+            "desc_restricted": "Connectez-vous pour voir votre historique de scans.",
+            "btn_login": "Se connecter",
+            "filters": {
+                "all": "Tous",
+                "ok": "Conforme",
+                "contains_allergen": "Allergènes",
+                "ambiguous": "Douteux"
+            },
+            "header_history": "Historique",
+            "lbl_total": "{count} total",
+            "empty_title": "Aucun scan pour le moment",
+            "empty_desc": "Scannez un produit pour vérifier ses ingrédients.",
+            "btn_scan_ai": "Scanner avec l'IA",
+            "loading_aria": "Chargement des scans",
+            "scan_item": {
+                "ingredients_count": "{count} ingrédients",
+                "alert_count": "{count} alerte(s)",
+                "preview_alt": "Aperçu du scan",
+                "untitled_scan": "Scan sans titre",
+                "processing": "Analyse en cours",
+                "failed": "Scan interrompu",
+                "progress_items": "{completed}/{total} ingrédients",
+                "processing_live": "ça se remplit en direct",
+                "date_today": "Aujourd'hui, {time}",
+                "date_yesterday": "Hier, {time}"
+            },
+            "delete_modal": {
+                "title": "Supprimer ce scan ?",
+                "desc": "Le scan et l'image associée seront définitivement supprimés. Cette action est irréversible.",
+                "btn_cancel": "Annuler",
+                "btn_delete": "Supprimer"
+            },
+            "daily_credit": {
+                "title": "Crédit journalier",
+                "desc": "1 scan gratuit disponible aujourd'hui ✨",
+                "btn_scan": "Scanner",
+                "btn_dismiss": "Masquer le crédit journalier"
+            }
+        },
+        "meta_title": "Mon compte — YumiScan",
+        "language": {
+            "title": "Langue",
+            "desc": "La langue de l'app est détectée automatiquement à la première visite. Vous pouvez la modifier ici à tout moment."
+        },
+        "restricted": {
+            "title": "Accès restreint",
+            "desc": "Connectez-vous pour gérer votre profil et vos allergènes.",
+            "btn_login": "Se connecter",
+            "btn_signup": "Créer un compte"
+        },
+        "onboarding_replay": {
+            "title": "Revoir la présentation",
+            "desc": "Relancez le tutoriel de l'app et les conseils pour l'ajouter à votre écran d'accueil.",
+            "btn_replay": "Relancer la présentation"
+        },
+        "profile": {
+            "title": "Mon Profil",
+            "member_premium": "MEMBRE PREMIUM",
+            "member_free": "MEMBRE GRATUIT",
+            "lvl_scanner": "LVL {level} SCANNER",
+            "first_name": "Prenom",
+            "last_name": "Nom",
+            "email": "Email",
+            "new_email": "Nouvel email",
+            "current_password": "Mot de passe actuel",
+            "email_warning": "Après modification, un email de confirmation sera envoyé à la nouvelle adresse. Selon vos réglages de sécurité Supabase, une validation supplémentaire peut aussi être demandée depuis l'adresse actuelle.",
+            "btn_change_email": "Modifier l'email",
+            "lbl_password": "Mot de passe",
+            "old_password": "Ancien mot de passe",
+            "new_password": "Nouveau mot de passe",
+            "confirm_password": "Confirmer",
+            "password_valid": "Mot de passe valide",
+            "password_mismatch": "Les mots de passe ne correspondent pas",
+            "lbl_req_password": "Requis :",
+            "err_first_name": "Le prénom est requis",
+            "err_last_name": "Le nom est requis",
+            "btn_cancel": "Annuler",
+            "btn_save": "Enregistrer",
+            "btn_saving": "Enregistrement...",
+            "err_save_failed": "Impossible de sauvegarder.",
+            "err_wrong_old_password": "L'ancien mot de passe est incorrect.",
+            "msg_password_success": "Mot de passe modifié avec succès",
+            "err_server_error": "Erreur serveur",
+            "err_wrong_password_email": "Le mot de passe est incorrect.",
+            "err_email_taken": "Cette adresse email est déjà utilisée par un autre compte.",
+            "err_email_failed": "Impossible de modifier l'email.",
+            "msg_email_success": "Un email de confirmation a été envoyé à {email}. Ouvrez le lien reçu pour finaliser le changement. Selon la configuration de sécurité, une validation supplémentaire peut aussi être demandée depuis l'adresse actuelle.",
+            "btn_sending": "Envoi...",
+            "err_modify_failed": "Erreur lors de la modification.",
+            "default_user_name": "Utilisateur"
+        },
+        "allergens": {
+            "title": "Mes Allergènes",
+            "lbl_active_count": "{count} actif(s)",
+            "desc": "Sélectionnez vos allergènes pour les détecter automatiquement lors de chaque scan.",
+            "empty_desc": "Aucun allergène disponible."
+        },
+        "credits": {
+            "title": "Credits Scan",
+            "lbl_free": "gratuits",
+            "lbl_low_credits": "Plus que",
+            "lbl_scan_remaining": "{count} scan(s) restant(s)",
+            "lbl_scan_remaining_suffix": "scan(s) restant(s)",
+            "lbl_no_scans": "Plus aucun scan disponible",
+            "desc_empty": "Rechargez maintenant pour continuer à scanner.",
+            "desc_low": "Rechargez bientôt pour ne pas être interrompu.",
+            "desc_daily": "Inclut 1 scan gratuit (valable aujourd'hui).",
+            "desc_ok": "Scans prêts à l'emploi.",
+            "btn_recharge": "Recharger mes crédits",
+            "btn_buy": "Acheter des crédits"
+        },
+        "order_history": {
+            "title": "Historique des commandes",
+            "btn_view_all": "Voir tout ({count})",
+            "btn_collapse": "Réduire",
+            "lbl_loading": "Chargement...",
+            "empty_title": "Aucune commande pour le moment.",
+            "empty_desc": "Vos achats de crédits apparaîttront ici après paiement.",
+            "syncing_title": "Paiement en cours de finalisation",
+            "syncing_desc": "Vos crédits apparaîtront automatiquement dès que Stripe et le webhook auront terminé la synchronisation.",
+            "sync_timeout_desc": "La confirmation Stripe prend plus de temps que prévu. Rechargez cette page dans quelques secondes si vos crédits ne sont pas encore visibles.",
+            "btn_invoice": "Facture",
+            "no_invoice": "Facture non disponible"
+        },
+        "danger_zone": {
+            "title": "Zone Dangereuse",
+            "btn_download": "Telecharger mes donnees",
+            "btn_delete_req": "Supprimer mon compte",
+            "btn_logout": "Deconnexion",
+            "warning_title": "Action irreversible",
+            "warning_desc": "Toutes vos donnees (profil, scans, preferences) seront definitivement supprimees.",
+            "lbl_current_password": "Saisissez votre mot de passe actuel",
+            "placeholder_current_password": "Mot de passe actuel",
+            "btn_delete_confirm": "Supprimer definitivement",
+            "msg_download_success": "Donnees telechargees avec succes.",
+            "msg_error_export": "Erreur lors de l'export.",
+            "msg_error_delete": "Erreur lors de la suppression.",
+            "btn_cancel": "Annuler"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "common": {
+        "loading": "Chargement...",
+        "error": "Une erreur est survenue",
+        "save": "Enregistrer",
+        "cancel": "Annuler",
+        "delete": "Supprimer",
+        "edit": "Modifier",
+        "back": "Retour",
+        "success": "Succès",
+        "skip_to_content": "Aller au contenu principal",
+        "language_switch": "Changer la langue",
+        "cookie_banner": {
+            "title": "Nous utilisons des cookies",
+            "desc_part1": "YumiScan utilise des cookies techniques indispensables à son fonctionnement, ainsi que des cookies analytiques et publicitaires optionnels pour mesurer l'audience et améliorer l'expérience.",
+            "desc_link": "En savoir plus",
+            "btn_customize": "Personnaliser",
+            "btn_reject_all": "Tout refuser",
+            "btn_accept_all": "Tout accepter",
+            "modal_title": "Gestion des cookies",
+            "necessary_title": "Cookies nécessaires",
+            "necessary_desc": "Indispensables au fonctionnement de l'application (session d'authentification). Ne peuvent pas être désactivés.",
+            "analytics_title": "Cookies analytiques",
+            "analytics_desc": "Mesure d'audience (Google Analytics, etc.) pour analyser l'utilisation du service et améliorer l'expérience. Aucune donnée n'est vendue à des tiers.",
+            "ads_title": "Cookies publicitaires",
+            "ads_desc": "Pixels de suivi publicitaire (Meta Pixel, TikTok Pixel, Google Ads) pour mesurer l'efficacité de nos campagnes. Activés uniquement avec votre consentement.",
+            "analytics_enable_aria": "Activer les cookies analytiques",
+            "analytics_disable_aria": "Désactiver les cookies analytiques",
+            "ads_enable_aria": "Activer les cookies publicitaires",
+            "ads_disable_aria": "Désactiver les cookies publicitaires"
+        },
+        "time": {
+            "min_read": "min de lecture",
+            "min_short": "min"
+        },
+        "password": {
+            "show": "Afficher le mot de passe",
+            "hide": "Masquer le mot de passe"
+        },
+        "contact": {
+            "title": "Contactez YumiScan - Support & Aide Scanner Alimentaire",
+            "description": "Une question sur notre application d'analyse d'allergènes ? Contactez le support YumiScan. Nous vous répondons rapidement.",
+            "heading": "Contact",
+            "subheading": "Une question, un retour ou une suggestion ? Remplissez le formulaire ci-dessous.",
+            "form_title": "Formulaire de contact YumiScan"
+        },
+        "footer": {
+            "rights": "© {year} YumiScan. Tous droits réservés.",
+            "version": "v{version}",
+            "version_title": "Version déployée",
+            "links": {
+                "about": "À propos",
+                "blog": "Blog",
+                "contact": "Contact",
+                "legal": "Mentions légales",
+                "privacy": "Confidentialité",
+                "cgu": "CGU",
+                "cgv": "CGV",
+                "health": "Santé & Allergènes",
+                "cookies": "Gestion des cookies"
+            },
+            "credit": "Developed by AdenCore Tech"
+        },
+        "nav": {
+            "home": "Accueil",
+            "pricing": "Tarifs",
+            "scans": "Historique des scans",
+            "account": "Mon compte",
+            "admin": "Back-office admin",
+            "signout": "Déconnexion",
+            "light_mode": "Mode clair",
+            "dark_mode": "Mode sombre"
+        },
+        "cta": {
+            "title": "Prêt à sécuriser vos courses ?",
+            "desc": "YumiScan vous aide à manger sereinement en décodant les étiquettes japonaises pour vous."
+        },
+        "maintenance": {
+            "badge": "Maintenance en cours",
+            "title": "YumiScan se refait une beaute",
+            "description": "Nous peaufinons actuellement l'application pour la rendre plus fluide, plus claire et plus fiable. L'acces public revient tres bientot.",
+            "reassurance": "Merci pour votre patience. Votre prochain scan vous attend deja. Si vous faites partie de l'equipe admin, vous pouvez continuer vos verifications en production.",
+            "btn_login": "Connexion admin",
+            "btn_admin": "Acceder au tableau de bord"
+        },
+        "errors": {
+            "unauthorized": "Non authentifié",
+            "generic": "Erreur",
+            "server_error": "Erreur serveur"
+        }
+    }
+}

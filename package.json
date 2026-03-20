@@ -1,0 +1,55 @@
+{
+  "name": "yumiscan",
+  "version": "1.5.6",
+  "private": true,
+  "type": "module",
+  "overrides": {
+    "sourcemap-codec": "npm:@jridgewell/sourcemap-codec@^1.0.0"
+  },
+  "scripts": {
+    "dev": "node scripts/env-by-branch.cjs && nuxt dev",
+    "build": "nuxt build",
+    "typecheck": "nuxi typecheck",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "gen:types": "supabase gen types typescript --local > types/supabase.ts",
+    "gen:types:ci": "supabase gen types typescript --project-id \"$SUPABASE_PROJECT_REF\" > types/supabase.ts",
+    "supabase:start": "supabase start",
+    "functions:serve": "supabase functions serve --no-verify-jwt --env-file .env",
+    "lint": "eslint .",
+    "lint:deadcode": "knip",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate": "npm run typecheck && npm run test && npm run lint:deadcode"
+  },
+  "dependencies": {
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "@nuxtjs/i18n": "npm:@nuxtjs/i18n-edge@^10.2.3-29536869.d9a1a2c",
+    "@phosphor-icons/vue": "^2.2.1",
+    "@sentry/nuxt": "^10.40.0",
+    "@stripe/stripe-js": "^8.8.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@tanstack/vue-query": "^5.17.0",
+    "clsx": "^2.1.0",
+    "heic2any": "^0.0.4",
+    "nuxt": "^3.14.0",
+    "tailwind-merge": "^2.2.1",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@nuxt/eslint-config": "^0.6.0",
+    "@nuxtjs/sitemap": "^7.6.0",
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@vite-pwa/nuxt": "^0.10.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.2",
+    "eslint": "^9.15.0",
+    "happy-dom": "^15.11.0",
+    "knip": "^5.85.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3",
+    "vitest": "^3.2.0",
+    "vue-tsc": "^3.2.5"
+  }
+}

@@ -1,0 +1,92 @@
+{
+    "common": {
+        "loading": "Loading...",
+        "error": "An error occurred",
+        "save": "Save",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "edit": "Edit",
+        "back": "Back",
+        "success": "Success",
+        "skip_to_content": "Skip to main content",
+        "language_switch": "Switch language",
+        "cookie_banner": {
+            "title": "We use cookies",
+            "desc_part1": "YumiScan uses essential technical cookies for its operation, as well as optional analytical and advertising cookies to measure audience and improve experience.",
+            "desc_link": "Learn more",
+            "btn_customize": "Customize",
+            "btn_reject_all": "Reject all",
+            "btn_accept_all": "Accept all",
+            "modal_title": "Cookie Management",
+            "necessary_title": "Strictly Necessary Cookies",
+            "necessary_desc": "Essential for the application to function (authentication session). These cannot be disabled.",
+            "analytics_title": "Analytical Cookies",
+            "analytics_desc": "Audience measurement (Google Analytics, etc.) to analyze service usage and improve experience. No data is sold to third parties.",
+            "ads_title": "Advertising Cookies",
+            "ads_desc": "Advertising tracking pixels (Meta Pixel, TikTok Pixel, Google Ads) to measure the effectiveness of our campaigns. Activated only with your consent.",
+            "analytics_enable_aria": "Enable analytical cookies",
+            "analytics_disable_aria": "Disable analytical cookies",
+            "ads_enable_aria": "Enable advertising cookies",
+            "ads_disable_aria": "Disable advertising cookies"
+        },
+        "time": {
+            "min_read": "min read",
+            "min_short": "min"
+        },
+        "password": {
+            "show": "Show password",
+            "hide": "Hide password"
+        },
+        "contact": {
+            "title": "Contact YumiScan - Food Scanner Support & Help",
+            "description": "Have a question about our allergen analysis app? Contact YumiScan support. We respond quickly.",
+            "heading": "Contact",
+            "subheading": "A question, feedback, or suggestion? Fill out the form below.",
+            "form_title": "YumiScan Contact Form"
+        },
+        "footer": {
+            "rights": "© {year} YumiScan. All rights reserved.",
+            "version": "v{version}",
+            "version_title": "Deployed version",
+            "links": {
+                "about": "About",
+                "blog": "Blog",
+                "contact": "Contact",
+                "legal": "Legal Notice",
+                "privacy": "Privacy Policy",
+                "cgu": "Terms of Service",
+                "cgv": "Terms of Sale",
+                "health": "Health & Allergens",
+                "cookies": "Cookie Management"
+            },
+            "credit": "Developed by AdenCore Tech"
+        },
+        "nav": {
+            "home": "Home",
+            "pricing": "Pricing",
+            "scans": "Scan History",
+            "account": "My Account",
+            "admin": "Admin Back-office",
+            "signout": "Sign Out",
+            "light_mode": "Light Mode",
+            "dark_mode": "Dark Mode"
+        },
+        "cta": {
+            "title": "Ready to secure your groceries?",
+            "desc": "YumiScan helps you eat with peace of mind by decoding Japanese labels for you."
+        },
+        "maintenance": {
+            "badge": "Maintenance in progress",
+            "title": "YumiScan is getting polished",
+            "description": "We are currently refining the app to make it smoother, clearer, and more reliable. Public access will be back shortly.",
+            "reassurance": "Thanks for your patience. Your next scan is already waiting. If you are part of the admin team, you can keep testing production during the maintenance window.",
+            "btn_login": "Admin sign in",
+            "btn_admin": "Open dashboard"
+        },
+        "errors": {
+            "unauthorized": "Unauthorized",
+            "generic": "Error",
+            "server_error": "Server error"
+        }
+    }
+}

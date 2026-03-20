@@ -1,0 +1,147 @@
+{
+    "account": {
+        "dashboard": {
+            "title": "Scan History — YumiScan",
+            "meta_title": "Scan History — YumiScan",
+            "lbl_restricted_access": "Restricted access",
+            "desc_restricted": "Log in to view your scan history.",
+            "btn_login": "Log in",
+            "filters": {
+                "all": "All",
+                "ok": "Compliant",
+                "contains_allergen": "Allergens",
+                "ambiguous": "Doubtful"
+            },
+            "header_history": "History",
+            "lbl_total": "{count} total",
+            "empty_title": "No scans yet",
+            "empty_desc": "Scan a product to check its ingredients.",
+            "btn_scan_ai": "Scan with AI",
+            "loading_aria": "Loading scans",
+            "scan_item": {
+                "ingredients_count": "{count} ingredients",
+                "alert_count": "{count} alert(s)",
+                "preview_alt": "Scan preview",
+                "untitled_scan": "Untitled scan",
+                "processing": "Analysis in progress",
+                "failed": "Scan failed",
+                "progress_items": "{completed}/{total} ingredients",
+                "processing_live": "building live",
+                "date_today": "Today, {time}",
+                "date_yesterday": "Yesterday, {time}"
+            },
+            "delete_modal": {
+                "title": "Delete this scan?",
+                "desc": "The scan and associated image will be permanently deleted. This action is irreversible.",
+                "btn_cancel": "Cancel",
+                "btn_delete": "Delete"
+            },
+            "daily_credit": {
+                "title": "Daily credit",
+                "desc": "1 free scan available today ✨",
+                "btn_scan": "Scan",
+                "btn_dismiss": "Hide daily credit"
+            }
+        },
+        "meta_title": "My Account — YumiScan",
+        "language": {
+            "title": "Language",
+            "desc": "The app language is detected automatically on your first visit. You can change it here at any time."
+        },
+        "restricted": {
+            "title": "Restricted Access",
+            "desc": "Log in to manage your profile and allergens.",
+            "btn_login": "Log In",
+            "btn_signup": "Create an account"
+        },
+        "onboarding_replay": {
+            "title": "Replay Presentation",
+            "desc": "Replay the app tutorial and tips on how to add it to your home screen.",
+            "btn_replay": "Replay Presentation"
+        },
+        "profile": {
+            "title": "My Profile",
+            "member_premium": "PREMIUM MEMBER",
+            "member_free": "FREE MEMBER",
+            "lvl_scanner": "LVL {level} SCANNER",
+            "first_name": "First name",
+            "last_name": "Last name",
+            "email": "Email",
+            "new_email": "New email",
+            "current_password": "Current password",
+            "email_warning": "After the change, a confirmation email will be sent to the new address. Depending on your Supabase security settings, an extra confirmation may also be required from the current address.",
+            "btn_change_email": "Change email",
+            "lbl_password": "Password",
+            "old_password": "Old password",
+            "new_password": "New Password",
+            "confirm_password": "Confirm",
+            "password_valid": "Valid Password",
+            "password_mismatch": "Passwords do not match",
+            "lbl_req_password": "Required:",
+            "err_first_name": "First name is required",
+            "err_last_name": "Last name is required",
+            "btn_cancel": "Cancel",
+            "btn_save": "Save",
+            "btn_saving": "Saving...",
+            "err_save_failed": "Unable to save.",
+            "err_wrong_old_password": "The old password is incorrect.",
+            "msg_password_success": "Password changed successfully",
+            "err_server_error": "Server Error",
+            "err_wrong_password_email": "Incorrect password.",
+            "err_email_taken": "This email address is already taken by another account.",
+            "err_email_failed": "Unable to change email.",
+            "msg_email_success": "A confirmation email has been sent to {email}. Open the link you receive to finalize the change. Depending on the security configuration, an extra confirmation may also be required from the current address.",
+            "btn_sending": "Sending...",
+            "err_modify_failed": "Error during update.",
+            "default_user_name": "User"
+        },
+        "allergens": {
+            "title": "My Allergens",
+            "lbl_active_count": "{count} active",
+            "desc": "Select your allergens to detect them automatically during each scan.",
+            "empty_desc": "No allergens available."
+        },
+        "credits": {
+            "title": "Scan Credits",
+            "lbl_free": "free",
+            "lbl_low_credits": "Only",
+            "lbl_scan_remaining": "{count} scan(s) remaining",
+            "lbl_scan_remaining_suffix": "scan(s) remaining",
+            "lbl_no_scans": "No more scans available",
+            "desc_empty": "Recharge now to continue scanning.",
+            "desc_low": "Recharge soon so you won't be interrupted.",
+            "desc_daily": "Includes 1 free scan (valid today).",
+            "desc_ok": "Scans ready to use.",
+            "btn_recharge": "Recharge my credits",
+            "btn_buy": "Buy credits"
+        },
+        "order_history": {
+            "title": "Order History",
+            "btn_view_all": "View all ({count})",
+            "btn_collapse": "Collapse",
+            "lbl_loading": "Loading...",
+            "empty_title": "No orders yet.",
+            "empty_desc": "Your credit purchases will appear here after payment.",
+            "syncing_title": "Payment is being finalized",
+            "syncing_desc": "Your credits will appear automatically as soon as Stripe and the webhook finish syncing.",
+            "sync_timeout_desc": "Stripe confirmation is taking longer than expected. Refresh this page in a few seconds if your credits are still not visible.",
+            "btn_invoice": "Invoice",
+            "no_invoice": "Invoice not available"
+        },
+        "danger_zone": {
+            "title": "Danger Zone",
+            "btn_download": "Download my data",
+            "btn_delete_req": "Delete my account",
+            "btn_logout": "Log out",
+            "warning_title": "Irreversible action",
+            "warning_desc": "All your data (profile, scans, preferences) will be permanently deleted.",
+            "lbl_current_password": "Enter your current password",
+            "placeholder_current_password": "Current password",
+            "btn_delete_confirm": "Permanently delete",
+            "msg_download_success": "Data downloaded successfully.",
+            "msg_error_export": "Error during export.",
+            "msg_error_delete": "Error during deletion.",
+            "btn_cancel": "Cancel"
+        }
+    }
+}

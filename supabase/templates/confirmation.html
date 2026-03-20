@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Activez votre compte YumiScan</title>
+  </head>
+  <body style="margin:0;padding:0;background:#fbf8f1;color:#171728;font-family:Manrope,Arial,sans-serif;">
+    <div style="background:#fbf8f1;padding:28px 16px 36px;">
+      <div style="max-width:640px;margin:0 auto;">
+        <div style="padding:0 8px 18px;">
+          <span style="display:inline-block;background:#ffffff;border:2.5px solid #1a1a2e;border-radius:999px;padding:8px 14px;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;color:#6f26d9;">
+            YumiScan
+          </span>
+        </div>
+
+        <div style="background:#ffffff;border:2.5px solid #1a1a2e;border-radius:18px;box-shadow:6px 6px 0 #1a1a2e;padding:34px 30px;">
+          <div style="margin:0 0 18px;">
+            <span style="display:inline-block;background:#efe7ff;color:#6f26d9;border:2px solid #1a1a2e;border-radius:999px;padding:6px 12px;font-size:11px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;box-shadow:2px 2px 0 #1a1a2e;">
+              Welcome aboard
+            </span>
+          </div>
+
+          <h1 style="margin:0 0 18px;font-family:'Space Grotesk',Manrope,Arial,sans-serif;font-size:34px;line-height:1.05;font-weight:900;color:#171728;">
+            Allumez votre radar d'etiquettes
+            <span style="display:block;margin-top:8px;color:#6f26d9;">Turn your label radar on</span>
+          </h1>
+
+          <div style="margin:0 0 20px;padding:18px;background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              Francais
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              Votre compte YumiScan est pret. Confirmez votre adresse email pour ouvrir votre espace, lancer vos scans et garder un acces securise a vos analyses.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;padding:18px;background:#f3eeff;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              English
+            </p>
+            <p style="margin:0;font-size:15px;line-height:1.75;color:#171728;">
+              Your YumiScan account is ready. Confirm your email address to unlock your space, start scanning, and keep access to your results secure.
+            </p>
+          </div>
+
+          <div style="margin:0 0 24px;">
+            <a href="{{ .ConfirmationURL }}" style="display:inline-block;background:#6f26d9;border:2.5px solid #1a1a2e;border-radius:999px;box-shadow:4px 4px 0 #1a1a2e;padding:14px 22px;font-size:16px;font-weight:800;line-height:1.2;color:#ffffff;text-decoration:none;">
+              Ouvrir mon espace / Enter my space
+            </a>
+          </div>
+
+          <div style="background:#f8f4eb;border:2px solid #1a1a2e;border-radius:14px;box-shadow:3px 3px 0 #1a1a2e;padding:16px 18px;">
+            <p style="margin:0 0 8px;font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#6f26d9;">
+              Lien direct / Direct link
+            </p>
+            <p style="margin:0;font-size:13px;line-height:1.7;word-break:break-all;">
+              <a href="{{ .ConfirmationURL }}" style="color:#6f26d9;text-decoration:underline;">{{ .ConfirmationURL }}</a>
+            </p>
+          </div>
+        </div>
+
+        <div style="padding:18px 8px 0;">
+          <p style="margin:0;font-size:12px;line-height:1.7;color:#6b6878;">
+            YumiScan est un outil d'aide a la lecture des etiquettes alimentaires. En cas d'allergie severe, verifiez toujours l'emballage original. YumiScan helps you read food labels faster, but severe allergies always require checking the original packaging.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

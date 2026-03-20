@@ -1,0 +1,86 @@
+{
+  "about": {
+    "meta_title": "About YumiScan — The story behind the app",
+    "meta_description": "Discover why YumiScan was created after a life-changing trip to Japan, to help people understand what they eat and avoid the stress of allergens and strict diets.",
+    "title": "About YumiScan",
+    "subtitle": "An app born from a trip, a real frustration, and one clear obsession: knowing what you eat.",
+    "hero_badge": "Our story",
+    "hero_intro": "YumiScan was built for people who do not want to buy or eat blindly when their health, values, or lifestyle are on the line.",
+    "story_title": "Where it started: Japan",
+    "story_p1": "I had dreamed of traveling to Japan since childhood. When I finally got to live that trip the way I had imagined it, I wanted to fully enjoy it: explore, shop, discover, and taste everything I could.",
+    "story_p2": "But every time I bought food, the same friction came back: I had to translate ingredients again and again. When you follow a strict diet, shopping quickly becomes stressful, slow, and frustrating.",
+    "story_p3": "Once I returned from Japan, the idea became obvious: build a tool that helps people understand food labels quickly, without improvising every single time.",
+    "mission_title": "Why YumiScan exists",
+    "mission_p1": "YumiScan helps remove the frustration linked to diets, allergens, and personal food restrictions. The goal is not only to scan text, but to restore peace of mind when buying food.",
+    "mission_p2": "Knowing what you eat means better protecting your health, respecting your moral choices, and avoiding risky or unnecessary mistakes.",
+    "founder_title": "The person behind the product",
+    "founder_p1": "I am an Italian software engineer based in France. YumiScan came from a real-world problem first, then became a useful product designed for everyday life.",
+    "founder_p2": "The ambition is simple: create a fast, reassuring and accessible experience for anyone who needs to verify what they consume before buying.",
+    "audience_title": "Who YumiScan is for",
+    "audience_items": {
+      "1": "People living with food allergies or intolerances.",
+      "2": "Travelers and expats dealing with labels they cannot easily read.",
+      "3": "People following a specific diet for health, ethical, or personal reasons.",
+      "4": "Anyone who wants to buy food with more clarity and less uncertainty."
+    },
+    "principles_title": "What we want to change",
+    "principles_items": {
+      "1": "Remove the feeling of buying food blindly without really understanding it.",
+      "2": "Reduce the stress that comes with shopping in unfamiliar environments.",
+      "3": "Help people make choices that are more aligned with their health and values.",
+      "4": "Make ingredient labels faster, easier and more reassuring to read."
+    },
+    "reassurance_title": "A decision aid, not a replacement",
+    "reassurance_p1": "YumiScan is designed as a practical way to better read and interpret ingredient lists. In the case of severe allergies or uncertainty, checking the original packaging remains essential.",
+    "cta": {
+      "guest": {
+        "badge": "Take the next step",
+        "title": "Stop buying food blindly",
+        "description": "Create your account, set your allergen profile, and let AI help you read a label before you head to checkout.",
+        "button": "Create my account"
+      },
+      "user": {
+        "badge": "Scan with AI",
+        "title": "Your next scan can start right now",
+        "description": "Your profile is already ready. Open the AI scanner and get a clearer answer before you buy.",
+        "button": "Scan with AI"
+      }
+    }
+  },
+  "terms": {
+    "meta_title": "YumiScan Terms of Sale",
+    "meta_description": "Read YumiScan’s Terms of Sale: scan credits, Stripe payments, withdrawal rights, refunds, and seller information.",
+    "title": "Terms of Sale",
+    "subtitle": "Consumer sale of YumiScan scan credits.",
+    "intro_badge": "B2C terms",
+    "intro_notice": "These terms apply only to the purchase of scan credits on YumiScan. They complement the Terms of Service governing use of the app.",
+    "company_title": "Seller information",
+    "company_name_label": "Public name",
+    "legal_entity_label": "Legal entity",
+    "address_label": "Address",
+    "country_label": "Country",
+    "siret_label": "SIRET",
+    "vat_label": "VAT",
+    "publication_director_label": "Publication director",
+    "contact_label": "Contact",
+    "credit_offer_title": "1. Products sold",
+    "credit_offer_p1": "YumiScan sells digital scan credits that allow users to launch food label scans inside the application. Available packs and pricing are displayed at checkout.",
+    "credit_offer_p2": "No recurring subscription is required. Users purchase credits through one-off packs only.",
+    "payment_title": "2. Payment",
+    "payment_p1": "Payment is processed securely by Stripe. YumiScan does not store any card details.",
+    "payment_p2": "An order is considered confirmed as soon as Stripe validates the payment and the user account receives the corresponding credits.",
+    "credits_title": "3. Credit usage",
+    "credits_p1": "Each scan consumes one credit according to the service rules. Free credits are used before paid credits only when the daily credit is no longer available.",
+    "credits_p2": "Paid credits do not expire as long as the user account remains active.",
+    "refund_title": "4. Withdrawal and refunds",
+    "refund_p1": "Because scan credits are digital and activated immediately after payment, service execution starts without delay once the order is confirmed.",
+    "refund_p2": "Except where mandatory law provides otherwise, credits already added to the account are non-refundable. In case of payment issues or missing credits, the user must use the Contact page before starting any bank dispute or chargeback process.",
+    "liability_title": "5. Liability",
+    "liability_p1": "YumiScan sells a right to use digital credits in order to access an analysis service. The publisher’s liability remains limited under the Terms of Service and applicable law.",
+    "support_title": "6. Support",
+    "support_p1": "For any question about an order, a payment, or the use of credits, the user can use YumiScan’s Contact page.",
+    "law_title": "7. Governing law",
+    "law_p1": "These Terms of Sale are governed by French law. In the event of a dispute and after an attempt at amicable resolution, the competent French courts may be seized.",
+    "footer": "YumiScan Terms of Sale — Public current version"
+  }
+}

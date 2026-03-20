@@ -1,0 +1,115 @@
+# Supabase project configuration
+
+[auth]
+site_url = "http://localhost:3000"
+additional_redirect_urls = [
+  "http://localhost:3000/login",
+  "http://localhost:3000/auth/confirm",
+  "http://127.0.0.1:3000/login",
+  "http://127.0.0.1:3000/auth/confirm",
+  "https://yumiscan.com/login",
+  "https://yumiscan.com/auth/confirm",
+  "https://www.yumiscan.com/login",
+  "https://www.yumiscan.com/auth/confirm",
+  "https://p-j-f-s-m1.vercel.app/login",
+  "https://p-j-f-s-m1.vercel.app/auth/confirm",
+]
+
+[auth.email.template.confirmation]
+subject = "Confirmez votre compte YumiScan"
+content_path = "./supabase/templates/confirmation.html"
+
+[auth.email.template.recovery]
+subject = "Réinitialisez votre mot de passe YumiScan"
+content_path = "./supabase/templates/recovery.html"
+
+[auth.email.template.email_change]
+subject = "Confirmez votre nouvelle adresse email"
+content_path = "./supabase/templates/email-change.html"
+
+[auth.email.template.magic_link]
+subject = "Votre lien de connexion YumiScan"
+content_path = "./supabase/templates/magic-link.html"
+
+[auth.email.template.invite]
+subject = "Vous êtes invité à rejoindre YumiScan"
+content_path = "./supabase/templates/invite.html"
+
+[api]
+port = 54321
+
+[db]
+port = 54322
+
+# Local : le gateway Functions rejette actuellement les JWT utilisateur asymetriques (ES256)
+# emis par Auth avec `{"msg":"Invalid JWT"}` avant meme d'atteindre le code Deno.
+# On desactive donc la verification gateway et on garde l'auth applicative dans
+# `_shared/auth.ts` / `_shared/admin.ts`, qui revalident chaque bearer via Auth.
+# Les webhooks externes restent eux aussi en `verify_jwt = false`.
+# food-scan-analyze : pipeline long (plusieurs appels Gemini). En cas d'erreur 546 en local, mettre a jour le CLI Supabase (timeout local plus long).
+[functions.food-scan-analyze]
+verify_jwt = false
+
+[functions.user-data-export]
+verify_jwt = false
+
+[functions.user-account-delete]
+verify_jwt = false
+
+[functions.entitlements]
+verify_jwt = false
+
+[functions.stripe-checkout]
+verify_jwt = false
+
+[functions.stripe-finalize-checkout]
+verify_jwt = false
+
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.stripe-order-history]
+verify_jwt = false
+
+[functions.auth-signup]
+verify_jwt = false
+
+[functions.scan-delete]
+verify_jwt = false
+
+[functions.scan-ambiguous-assistant]
+verify_jwt = false
+
+[functions.scan-assistant-tts]
+verify_jwt = false
+
+[functions.sentry-test-error]
+verify_jwt = false
+
+[functions.sentry-webhook]
+verify_jwt = false
+
+[functions.discord-interactions]
+verify_jwt = false
+
+# Back-office admin : JWT verifie a la gateway, puis controle applicatif via requireAdmin.
+[functions.admin-kpi]
+verify_jwt = false
+
+[functions.admin-users-list]
+verify_jwt = false
+
+[functions.admin-send-password-reset]
+verify_jwt = false
+
+[functions.admin-delete-user]
+verify_jwt = false
+
+[functions.admin-user-scans]
+verify_jwt = false
+
+[functions.admin-app-config]
+verify_jwt = false
+
+[functions.admin-pricing-offers]
+verify_jwt = false

@@ -1,0 +1,507 @@
+/* ========================================================
+   HOMEPAGE SECTIONS — Bold Design System
+   ======================================================== */
+
+.sectionRoot {
+  --hp-gap: 3.5rem;
+}
+
+/* -- Section Title (titre + ligne grise à droite, style "ILS UTILISENT LE SCAN") -- */
+.sectionTitle {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: hsl(var(--foreground));
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+}
+.sectionTitle::after {
+  content: '';
+  flex: 1;
+  min-width: 0;
+  height: 2.5px;
+  background: hsl(var(--muted-foreground) / 0.35);
+  border-radius: 2px;
+}
+
+.sectionSubtitle {
+  font-size: 0.8125rem;
+  color: hsl(var(--muted-foreground));
+  font-weight: 500;
+  margin-top: -0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+/* ========================================================
+   HOW IT WORKS — 3 steps
+   ======================================================== */
+.stepsRow {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0;
+  padding: 0 0.5rem;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.stepNumber {
+  width: 2.75rem;
+  height: 2.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 1.125rem;
+  font-weight: 800;
+  background: hsl(var(--card));
+  color: hsl(var(--foreground));
+  border: 2.5px solid var(--bold-border-color);
+  border-radius: 12px;
+  box-shadow: var(--bold-shadow-sm);
+}
+
+.stepLabel {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: hsl(var(--muted-foreground));
+}
+
+.stepLine {
+  flex: 0.4;
+  height: 2.5px;
+  background: var(--bold-border-color);
+  opacity: 0.2;
+  margin-top: 1.375rem;
+  border-radius: 2px;
+}
+
+/* ========================================================
+   FEATURES — 2x2 grid
+   ======================================================== */
+.featuresGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.featureCard {
+  position: relative;
+  padding: 1.25rem;
+  background: hsl(var(--card));
+  border: 2.5px solid var(--bold-border-color);
+  border-radius: var(--bold-radius, 14px);
+  box-shadow: var(--bold-shadow-sm);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.featureCard:hover {
+  transform: translate(1.5px, 1.5px);
+  box-shadow: 1.5px 1.5px 0 0 var(--bold-color);
+}
+
+.featureCardIcon {
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bold-border-color);
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  color: hsl(var(--primary));
+  background: hsl(var(--primary) / 0.08);
+}
+.featureCardIcon--accent {
+  color: hsl(var(--accent));
+  background: hsl(var(--accent) / 0.08);
+}
+.featureCardIcon--warning {
+  color: hsl(var(--warning));
+  background: hsl(var(--warning) / 0.08);
+}
+.featureCardIcon--destructive {
+  color: hsl(var(--destructive));
+  background: hsl(var(--destructive) / 0.08);
+}
+
+.featureCardTitle {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: hsl(var(--foreground));
+  margin-bottom: 0.35rem;
+}
+
+.featureCardDesc {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: hsl(var(--muted-foreground));
+  font-weight: 500;
+}
+
+/* ========================================================
+   MARQUEE — Japanese words infinite scroll
+   ======================================================== */
+.marqueeSection {
+  overflow: hidden;
+}
+
+.marqueeContainer {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  padding-bottom: 0.6rem;
+}
+
+/* Animation gérée dans globals.css sous html.animations-ready (fix mobile) */
+.marqueeTrack {
+  display: flex;
+  gap: 0.6rem;
+  width: max-content;
+}
+
+.marqueeChip {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  background: hsl(var(--card));
+  border: 2px solid var(--bold-border-color);
+  border-radius: var(--bold-radius-pill, 999px);
+  box-shadow: var(--bold-shadow-xs);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.marqueeJp {
+  font-size: 0.9375rem;
+  font-weight: 800;
+  color: hsl(var(--foreground));
+  letter-spacing: 0.02em;
+}
+
+.marqueeFr {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Keyframes marquee déplacées dans globals.css pour html.animations-ready */
+
+/* ========================================================
+   REVIEWS CAROUSEL
+   ======================================================== */
+.carouselWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.carouselBtn {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(var(--card));
+  border: 2.5px solid var(--bold-border-color);
+  border-radius: 12px;
+  box-shadow: var(--bold-shadow-xs);
+  cursor: pointer;
+  color: hsl(var(--foreground));
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+}
+.carouselBtn:hover {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0 0 var(--bold-color);
+  background: hsl(var(--muted) / 0.5);
+}
+.carouselBtn:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.carouselViewport {
+  flex: 1;
+  overflow: hidden;
+  padding: 0.2rem 0;
+}
+
+.carouselTrack {
+  display: flex;
+  transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carouselSlide {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  box-sizing: border-box;
+  padding: 0.2rem 0.55rem 0.7rem;
+}
+
+.reviewCard {
+  width: min(100%, 34rem);
+  padding: 1.25rem;
+}
+
+.carouselDots {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.carouselDot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--bold-border-color);
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: background 200ms ease, transform 200ms ease;
+}
+.carouselDot:hover {
+  background: hsl(var(--muted-foreground) / 0.3);
+}
+
+.carouselDotActive {
+  background: hsl(var(--primary));
+  border-color: hsl(var(--primary));
+  transform: scale(1.2);
+}
+
+.reviewStars {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 0.6rem;
+  color: hsl(var(--warning));
+}
+
+.reviewQuote {
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: hsl(var(--foreground));
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.reviewAuthor {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reviewAvatar {
+  width: 1.75rem;
+  height: 1.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.6875rem;
+  font-weight: 800;
+  border-radius: 8px;
+  border: 2px solid var(--bold-border-color);
+  background: hsl(var(--primary) / 0.1);
+  color: hsl(var(--primary));
+}
+
+.reviewName {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+}
+
+.reviewMeta {
+  font-size: 0.6875rem;
+  color: hsl(var(--muted-foreground));
+  font-weight: 500;
+}
+
+/* ========================================================
+   CTA BANNER
+   ======================================================== */
+.ctaBanner {
+  position: relative;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  border: 3px solid var(--bold-border-color);
+  border-radius: var(--bold-radius-lg, 18px);
+  box-shadow: var(--bold-shadow-lg);
+  cursor: pointer;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+  text-decoration: none;
+  overflow: hidden;
+}
+.ctaBanner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 16px 16px;
+  pointer-events: none;
+}
+.ctaBanner:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 3px 3px 0 0 var(--bold-color);
+}
+
+.ctaBannerIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.15);
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.ctaBannerText { flex: 1; position: relative; z-index: 1; }
+
+.ctaBannerTitle {
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.ctaBannerDesc {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  font-weight: 500;
+  margin-top: 0.15rem;
+}
+
+.ctaBannerArrow {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.15);
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* ========================================================
+   FAQ
+   ======================================================== */
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-radius: var(--bold-radius, 14px);
+  overflow: hidden;
+  border: 2.5px solid var(--bold-border-color);
+  background: hsl(var(--card));
+  box-shadow: var(--bold-shadow);
+}
+
+.faqItem { border-bottom: 2px solid hsl(var(--border)); }
+.faqItem:last-child { border-bottom: none; }
+
+.faqSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  font-family: 'Space Grotesk', system-ui, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  text-align: left;
+  cursor: pointer;
+  list-style: none;
+  background: transparent;
+  border: none;
+  transition: background 150ms ease;
+}
+.faqSummary::-webkit-details-marker { display: none; }
+.faqSummary:hover { background: hsl(var(--muted) / 0.5); }
+.faqSummary span:first-child { flex: 1; padding-right: 1rem; line-height: 1.4; }
+
+.faqIcon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsl(var(--primary));
+  font-size: 1rem;
+  font-weight: 800;
+  transition: transform 200ms ease;
+  background: hsl(var(--primary) / 0.1);
+  border-radius: 6px;
+}
+details[open] .faqIcon { transform: rotate(45deg); }
+
+.faqContent { padding: 0 1.25rem 1.25rem; }
+.faqContent p {
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: hsl(var(--muted-foreground));
+  margin: 0;
+  font-weight: 500;
+}
+
+/* ========================================================
+   FOOTER
+   ======================================================== */
+.footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 2.5px solid var(--bold-border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: hsl(var(--muted-foreground));
+}
+
+.footerLinks { display: flex; gap: 1rem; }
+.footerLink {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 150ms ease;
+}
+.footerLink:hover { color: hsl(var(--foreground)); }

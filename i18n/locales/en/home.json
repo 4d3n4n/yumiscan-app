@@ -1,0 +1,235 @@
+{
+    "home": {
+        "seo": {
+            "title": "YumiScan — Scan Japanese labels and detect your allergens",
+            "description": "YumiScan detects allergens in your products using AI. Scan Japanese labels, identify gluten, soy, eggs, shellfish and more. 3 free scans on signup.",
+            "og_locale": "en_US",
+            "json_ld": {
+                "website_desc": "Detect allergens in your products with AI.",
+                "item_list_name": "Latest YumiScan blog articles",
+                "item_list_desc": "Japan travel tips, food allergies and labels.",
+                "faq_q1": "How does AI allergen detection work?",
+                "faq_a1": "YumiScan uses an OCR + multi-step artificial intelligence pipeline: the image is analyzed, text is extracted, and each ingredient is classified against your customized allergen criteria.",
+                "faq_q2": "Which allergens can YumiScan detect?",
+                "faq_a2": "All major allergens: gluten, soy, eggs, shellfish, peanuts, tree nuts, sesame, milk, fish, and many more. You can also add custom criteria like halal or vegan.",
+                "faq_q3": "Does the scan work with Japanese labels?",
+                "faq_a3": "Yes, that's our specialty. The AI is optimized to read complex food kanjis and automatically translate Japanese ingredient lists into your language.",
+                "faq_q4": "How many free scans are included?",
+                "faq_a4": "Upon account creation, you get 3 free scans to test the full experience with no commitment.",
+                "faq_q5": "Do scan credits expire?",
+                "faq_a5": "No. Your credits are valid for life, with no time limit. Use them at your own pace.",
+                "faq_q6": "What types of food products can I scan?",
+                "faq_a6": "All packaged products with a readable ingredient list: snacks, ready meals, sauces, drinks, confectioneries, dairy products, etc. The app is particularly effective on Japanese products.",
+                "faq_q7": "Is the detection 100% reliable?",
+                "faq_a7": "The AI achieves a very high level of precision, but we always recommend verifying the packaging when in doubt, especially for severe allergies. YumiScan is a decision-support tool, not a medical diagnosis.",
+                "faq_q8": "Can I use YumiScan offline?",
+                "faq_a8": "The analysis requires an internet connection because it replies on our cloud AI. However, your scan history can be viewed at any time.",
+                "faq_q9": "How is my personal data protected?",
+                "faq_a9": "Your data is hosted securely. Scan images are stored in a private space accessible only by you. Payment is handled by Stripe, which is PCI-DSS certified.",
+                "faq_q10": "Is YumiScan available on mobile?",
+                "faq_a10": "Yes. YumiScan is a Progressive Web App (PWA) accessible from any mobile browser. You can install it on your home screen like a native app, without going through an app store.",
+                "faq_q11": "Which payment methods are accepted?",
+                "faq_a11": "Stripe secure checkout shows the payment methods available for your device and country, such as cards, Apple Pay, Google Pay, Klarna, or Revolut Pay."
+            }
+        },
+        "intro": {
+            "badge": "AI scanner for Japanese labels",
+            "title_scannez": "SCAN, DETECT,",
+            "title_protegez": "PROTECT YOURSELF!",
+            "description": "Photograph the ingredients, the AI detects your allergens in seconds.",
+            "pill_detection": "Detection",
+            "pill_allergens": "Allergens",
+            "pill_scan": "Scan",
+            "pill_instant": "Instant",
+            "disclaimer": "Note · AI is an aid, always verify the packaging when in doubt."
+        },
+        "features": {
+            "title": "Why choose YumiScan",
+            "list": {
+                "opt_japon_title": "Japan Special",
+                "opt_japon_desc": "Optimized for complex food kanjis.",
+                "opt_criteria_title": "Your criteria",
+                "opt_criteria_desc": "Allergens, diets, additives: decode lists at a glance.",
+                "opt_alerte_title": "Allergen Alert",
+                "opt_alerte_desc": "Detects traces of soy, eggs, crustaceans, etc.",
+                "opt_ai_title": "Accurate AI",
+                "opt_ai_desc": "Ultra-reliable multi-step OCR + AI pipeline."
+            }
+        },
+        "cta_banner": {
+            "title": "View my scan history",
+            "desc": "Access your latest scans and results."
+        },
+        "how_it_works": {},
+        "reviews": {
+            "title": "They use YumiScan",
+            "btn_prev": "Previous review",
+            "btn_next": "Next review",
+            "btn_dot": "Review {numero}",
+            "items": {
+                "fb": {
+                    "quote": "I scan every product at the konbini, in 3 seconds I know if it's safe for me. A real time saver.",
+                    "author": "Fatima B.",
+                    "meta": "Allergic to lactose"
+                },
+                "ym": {
+                    "quote": "Impossible to read Japanese labels, the app translates for me and tells me exactly what to avoid.",
+                    "author": "Youssef M.",
+                    "meta": "Traveler in Japan"
+                },
+                "cd": {
+                    "quote": "Since I started using YumiScan, I'm no longer afraid to try new products, the scan immediately reassures me.",
+                    "author": "Camille D.",
+                    "meta": "Gluten intolerant"
+                },
+                "ka": {
+                    "quote": "The app saved me more than once at the supermarket. The detection is super accurate, highly recommended.",
+                    "author": "Karim A.",
+                    "meta": "Strict diet"
+                }
+            }
+        },
+        "pricing": {
+            "title": "Our plans",
+            "one_time": "one-time",
+            "loading": "Loading offers...",
+            "empty": "Offers are temporarily unavailable.",
+            "per_credit_suffix": "credit",
+            "intro_spans": [
+                "3 free scans",
+                " upon registration.",
+                "+1 free scan every day.",
+                " Buy credits to go further."
+            ],
+            "plans": {
+                "100_credits": {
+                    "name": "100 credits",
+                    "desc": "~100 scans",
+                    "price": "9.99",
+                    "price_per_scan": "€0.10 / scan",
+                    "features": [
+                        "100 scans with no time limit",
+                        "Detection of all allergens",
+                        "Translation of Japanese labels",
+                        "Comprehensive history"
+                    ]
+                },
+                "300_credits": {
+                    "name": "300 credits",
+                    "desc": "~300 scans — best value",
+                    "badge": "BEST VALUE",
+                    "price": "14.99",
+                    "price_per_scan": "€0.05 / scan",
+                    "features": [
+                        "300 scans with no time limit",
+                        "Detection of all allergens",
+                        "Translation of Japanese labels",
+                        "Comprehensive history",
+                        "Lowest price per scan"
+                    ]
+                }
+            },
+            "cta_buy": "Buy",
+            "trust": {
+                "title": "Secure Stripe payment",
+                "desc": "One-time payment, no subscription. Data protected."
+            },
+            "modal_title": "Secure payment",
+            "modal_desc": "Card and billing address — Stripe",
+            "error_missing_key": "Stripe key not configured.",
+            "error_load": "Failed to load Stripe.",
+            "error_checkout": "Error during checkout"
+        },
+        "faq": {
+            "title": "Frequently Asked Questions",
+            "items": {
+                "q1": "How does AI allergen detection work?",
+                "a1": "YumiScan uses an OCR + multi-step artificial intelligence pipeline: the image is analyzed, text is extracted, and each ingredient is classified against your customized allergen criteria.",
+                "q2": "Which allergens can YumiScan detect?",
+                "a2": "All major allergens: gluten, soy, eggs, shellfish, peanuts, tree nuts, sesame, milk, fish, and many more. You can also add custom criteria like halal or vegan.",
+                "q3": "Does the scan work with Japanese labels?",
+                "a3": "Yes, that's our specialty. The AI is optimized to read complex food kanjis and automatically translate Japanese ingredient lists into your language.",
+                "q4": "How many free scans are included?",
+                "a4": "Upon account creation, you get 3 free scans to test the full experience with no commitment.",
+                "q5": "Do scan credits expire?",
+                "a5": "No. Your credits are valid for life, with no time limit. Use them at your own pace.",
+                "q6": "What types of food products can I scan?",
+                "a6": "All packaged products with a readable ingredient list: snacks, ready meals, sauces, drinks, confectioneries, dairy products, etc. The app is particularly effective on Japanese products.",
+                "q7": "Is the detection 100% reliable?",
+                "a7": "The AI achieves a very high level of precision, but we always recommend verifying the packaging when in doubt, especially for severe allergies. YumiScan is a decision-support tool, not a medical diagnosis.",
+                "q8": "Can I use YumiScan offline?",
+                "a8": "The analysis requires an internet connection because it replies on our cloud AI. However, your scan history can be viewed at any time.",
+                "q9": "How is my personal data protected?",
+                "a9": "Your data is hosted securely. Scan images are stored in a private space accessible only by you. Payment is handled by Stripe, which is PCI-DSS certified.",
+                "q10": "Is YumiScan available on mobile?",
+                "a10": "Yes. YumiScan is a Progressive Web App (PWA) accessible from any mobile browser. You can install it on your home screen like a native app, without going through an app store.",
+                "q11": "Which payment methods are accepted?",
+                "a11": "Stripe secure checkout shows the payment methods available for your device and country, such as cards, Apple Pay, Google Pay, Klarna, or Revolut Pay."
+            }
+        },
+        "steps": {
+            "title": "How it works",
+            "phase_0": "Take a photo",
+            "phase_1": "Scanning in progress...",
+            "phase_2": "OCR Detection",
+            "phase_3": "AI Translation",
+            "phase_4": "Analysis complete",
+            "label_jp": "成分表示",
+            "label_ing": "Ingredients",
+            "label_ai": "Translated by AI",
+            "image_alt": "Japanese product being scanned",
+            "words": {
+                "soja": "Soy",
+                "farine": "Wheat Flour",
+                "lait": "Milk",
+                "oeuf": "Egg",
+                "crevette": "Shrimp",
+                "sucre": "Sugar"
+            },
+            "success_msg": "No allergens detected",
+            "success_sub": "Compatible with your criteria",
+            "nav_1": "Photograph",
+            "nav_2": "Analyze",
+            "nav_3": "Verify"
+        },
+        "marquee": {
+            "words": {
+                "farine": "Flour",
+                "soja": "Soy",
+                "oeuf": "Egg",
+                "lait": "Milk",
+                "sucre": "Sugar",
+                "crevette": "Shrimp",
+                "crabe": "Crab",
+                "porc": "Pork",
+                "poulet": "Chicken",
+                "gelatine": "Gelatin",
+                "cacahuete": "Peanut",
+                "sarrasin": "Buckwheat",
+                "noix": "Walnut",
+                "amande": "Almond",
+                "calamar": "Squid",
+                "maquereau": "Mackerel",
+                "sauce_soja": "Soy sauce",
+                "mirin": "Mirin",
+                "kombu": "Kombu",
+                "miso": "Miso"
+            }
+        },
+        "blog_section": {
+            "title": "Our articles",
+            "btn_prev": "Previous article",
+            "btn_next": "Next article",
+            "btn_dot": "Article {numero}",
+            "btn_all": "See all articles"
+        },
+        "blog": {
+            "title": "Our latest articles",
+            "cta_all": "View all blog posts"
+        },
+        "cta": {
+            "title": "Access your history",
+            "desc": "Find your latest scans"
+        }
+    }
+}
