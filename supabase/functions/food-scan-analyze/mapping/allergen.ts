@@ -2,7 +2,7 @@
  * Phase 1.7: Allergen blacklist mapping (CODE).
  * Deterministic pre-classification of allergen ingredients before AI Phase 2.
  *
- * Same pattern as haram blacklist (Phase 1.6):
+ * Matching strategy:
  * - JP terms: includes() matching
  * - Latin terms: word boundary regex matching
  * - Cross-check: JP partial match → verify FR translation confirms
@@ -98,7 +98,7 @@ export function buildAllergenLookup(allergenKeywords: AllergenKeywords[]): {
  * Check if an ingredient matches any allergen keyword.
  * Returns the matched allergen family name and the matched keyword, or null.
  *
- * Logic (same as haram blacklist):
+ * Logic:
  * 1. Check JP raw text with includes()
  *    - Exact match (keyword === raw) → confirmed
  *    - Partial match (keyword is substring) → cross-check with FR translation
@@ -155,7 +155,7 @@ function findAllergenMatch(
  *
  * Deterministic CODE operation (no AI).
  *
- * @param items - Translated items (unmapped after haram check)
+ * @param items - Translated items from Phase 1.5
  * @param allergenKeywords - User's selected allergen families with their keywords
  * @returns Separated allergens and remaining unmapped items
  */
