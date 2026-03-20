@@ -6,6 +6,7 @@
   /Infrastructure Architecture Diagram : yumiscan-app\docs\schema-bdd.svg
 - CI/CD : yumiscan-app\docs\ci-cd
 - Ensemble de la documentation : yumiscan-app\docs
+- Lien de la diaporama : https://www.canva.com/design/DAHChX3faxw/NkUhS3tgjQNbjM5nZmHbqQ/edit?utm_content=DAHChX3faxw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 # YumiScan
 
