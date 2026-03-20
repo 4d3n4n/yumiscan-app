@@ -1,3 +1,12 @@
+# Guide d'évaluation
+
+- Documentation technique : (Ce fichier) yumiscan-app\README.md
+- Application Architecture Diagram
+  /Modèle de données
+  /Infrastructure Architecture Diagram : yumiscan-app\docs\schema-bdd.svg
+- CI/CD : yumiscan-app\docs\ci-cd
+- Ensemble de la documentation : yumiscan-app\docs
+
 # YumiScan
 
 Application Nuxt 3 + Supabase pour aider des voyageurs au Japon a comprendre une etiquette alimentaire japonaise a partir d'une photo, avec scan progressif, credits, paiement Stripe, monitoring Sentry/Discord et front public FR/EN.
@@ -98,6 +107,7 @@ Puis renseigner `.env.recette`.
 - branche `main` -> runtime de production gere par Vercel + Supabase cloud
 
 Script concerne:
+
 - [scripts/env-by-branch.cjs](/Users/adenankhachnane/Downloads/projet-full-stack/main/scripts/env-by-branch.cjs)
 
 ## Variables importantes
@@ -144,8 +154,9 @@ npm run functions:serve
 ```
 
 En local, ce script utilise `--no-verify-jwt` au niveau gateway. L'auth utilisateur reste revalidee applicativement dans:
-- [supabase/functions/_shared/auth.ts](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/_shared/auth.ts)
-- [supabase/functions/_shared/admin.ts](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/_shared/admin.ts)
+
+- [supabase/functions/\_shared/auth.ts](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/_shared/auth.ts)
+- [supabase/functions/\_shared/admin.ts](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/_shared/admin.ts)
 
 ### 3. Lancer le front
 
@@ -156,6 +167,7 @@ npm run dev
 ## Scan et pipeline IA
 
 Fonction principale:
+
 - [supabase/functions/food-scan-analyze/index.ts](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/food-scan-analyze/index.ts)
 
 Pipeline reel:
@@ -176,6 +188,7 @@ Pipeline reel:
 14. finalisation transactionnelle du credit
 
 Reference detaillee:
+
 - [pipeline-scan-yumiscan.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/pipeline-scan-yumiscan.md)
 
 ## Credits et Stripe
@@ -254,14 +267,17 @@ La suite couvre notamment:
 - cache PWA et persistance Vue Query
 
 Reference:
+
 - [docs/testing/TESTS-UNITAIRES.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/testing/TESTS-UNITAIRES.md)
 
 ## Documentation projet
 
 Index documentaire:
+
 - [docs/README.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/README.md)
 
 Docs principales:
+
 - [docs/ARCHITECTURE-TECHNIQUE.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/ARCHITECTURE-TECHNIQUE.md)
 - [pipeline-scan-yumiscan.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/pipeline-scan-yumiscan.md)
 - [docs/admin/README.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/admin/README.md)
@@ -272,6 +288,8 @@ Docs principales:
 - [supabase/functions/README-ALLERGENES.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/supabase/functions/README-ALLERGENES.md)
 
 Specs historiques conservees a titre de reference:
+
 - [1.3-scan-progressif.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/milestones/1.3-scan-progressif.md)
 - [1.4-performance-mobile.md](/Users/adenankhachnane/Downloads/projet-full-stack/main/docs/milestones/1.4-performance-mobile.md)
+
 # yumiscan-app
